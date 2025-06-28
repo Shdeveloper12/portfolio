@@ -3,37 +3,34 @@ import { NavLink } from "react-router";
 import logo from "../assets/logo.png"
 
 const Navber = () => {
-    const handleClick = () => {
-        
-    };
-    const activeStyle = ({ isActive }) => 
+    const activeStyle = ({ isActive }) =>
         isActive
         ? "text-primary font-bold"
         : "text-gray-600 hover:text-primary";
     const menuItems = (
         <>
         <li>
-            <NavLink to="" onClick={handleClick} className={activeStyle}>About Me</NavLink>
+            <a href="#about" className={activeStyle}>About Me</a>
         </li>
         <li>
-            <NavLink to="" onClick={handleClick} className={activeStyle}>Projects</NavLink>
+            <a href="#projects" className={activeStyle}>Projects</a>
         </li>
        
         <li>
-            <NavLink to="" onClick={handleClick} className={activeStyle}>Skills</NavLink>
+            <a href="#skills" className={activeStyle}>Skills</a>
         </li>
         <li>
-            <NavLink to="" onClick={handleClick} className={activeStyle}>Education</NavLink>
+            <a href="#education" className={activeStyle}>Education</a>
         </li>
         <li>
-            <NavLink to="" onClick={handleClick} className={activeStyle}>Contact</NavLink>
+            <a href="#contact" className={activeStyle}>Contact</a>
         </li>
         </>
     )
 
     
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

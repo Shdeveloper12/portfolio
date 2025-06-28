@@ -27,7 +27,7 @@ const HeroSection = () => {
             I create web applications using MongoDB, Express.js, React.js, and
             Node.js.
           </p>
-          <div className="flex gap-4 mb-5 text-center lg:text-left">
+          <div className="flex gap-4 mb-5 ml-[110px] lg:ml-0 lg:text-left">
             <span className="text-4xl">
               <a href="https://www.facebook.com" target="_blank">
                 <i class="fa-brands fa-square-facebook"></i>
@@ -44,7 +44,7 @@ const HeroSection = () => {
               </a>
             </span>
           </div>
-          <button className="btn">Download Resume</button>
+          <button className="btn ml-5 lg:ml-0">Download Resume</button>
         </div>
       </div>
     </div>
