@@ -107,9 +107,9 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           className="btn btn-outline btn-primary"
-          href=""
+          href="https://drive.google.com/file/d/1dyql8IzebI8KAYvbbXcAziKnb7XbdoRI/view?usp=sharing"
           target="_blank"
-          rel="noopener noreferrer"
+          
         >
           Resume
         </a>
