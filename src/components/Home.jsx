@@ -19,9 +19,9 @@ const Home = () => {
       <div id="about" className="scroll-mt-20">
         <AboutMe />
       </div>
-      <SkillSection />
-      <div id="experience">
-        <ExperienceSection />
+      
+      <div id="skills">
+        <SkillSection />
       </div>
       <div id="education">
         <EducationSection />
