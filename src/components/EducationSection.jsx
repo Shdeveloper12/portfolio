@@ -21,8 +21,8 @@ return (
                     <p className="text-gray-500">Stamford University, Dhaka</p>
                     <p className="text-gray-500">2024 - Present</p>
                     <p className="text-gray-500">2027 - Out</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn ">
+                    <div className="card-actions justify-end ">
+                        <button className="btn btn-outline btn-primary ">
                             <a href="https://www.stamforduniversity.edu.bd" target="_blank" rel="noopener noreferrer">
                                 View Details
                             </a>
@@ -40,7 +40,7 @@ return (
                     <p className="text-gray-500">Rangpur Polytechnic Institute, Rangpur</p>
                     <p className="text-gray-500">2019 - 2023</p>
                     <div className="card-actions justify-end">
-                        <button className="btn ">
+                        <button className="btn btn-outline btn-primary">
                             <a href="https://rangpur.polytech.gov.bd" target="_blank" rel="noopener noreferrer">
                                 View Details
                             </a>

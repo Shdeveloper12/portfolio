@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="about-me my-12 text-center max-w-7xl mx-auto px-4">
+    <div className="about-me my-12 text-center max-w-7xl mx-auto px-4 border rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8">
       <h2 className="text-2xl font-bold">About Me</h2>
       <p className="py-4 text-gray-700 ">
         My name is Md Shafayet Hossen, a motivated MERN stack developer with a

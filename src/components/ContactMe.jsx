@@ -52,8 +52,9 @@ const ContactMe = () => {
 
   return (
     <div className="container relative z-10 max-w-7xl mx-auto px-4 py-8 mt-12">
-      <div>
-        <h2 className="text-2xl font-bold mb-8 text-center">Get In Touch</h2>
+      <div className=" text-center mb-12">
+        <h2 className="text-2xl font-bold mb-3">Get In Touch</h2>
+        <p >Let's work together</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8">
         {/* Contact Info Section */}

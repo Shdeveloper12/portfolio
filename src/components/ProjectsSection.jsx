@@ -113,7 +113,7 @@ const ProjectsSection = () => {
                   Frontend Code
                 </a>
                 <a
-                  href="https://github.com/Shdeveloper12/Hobby-Hub-Server"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
@@ -171,8 +171,9 @@ const ProjectsSection = () => {
                 <a
                   href=""
                   target=""
+                  disabled
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary "
                 >
                   Backend Code
                 </a>
@@ -226,6 +227,7 @@ const ProjectsSection = () => {
                   Frontend Code
                 </a>
                 <a
+                disabled
                   href=""
                   target=""
                   rel="noopener noreferrer"
@@ -281,6 +283,7 @@ const ProjectsSection = () => {
                   Frontend Code
                 </a>
                 <a
+                disabled
                   href=""
                   target=""
                   rel="noopener noreferrer"
@@ -336,6 +339,7 @@ const ProjectsSection = () => {
                   Frontend Code
                 </a>
                 <a
+                disabled
                   href=""
                   target=""
                   rel="noopener noreferrer"
@@ -391,6 +395,7 @@ const ProjectsSection = () => {
                   Frontend Code
                 </a>
                 <a
+                disabled
                   href=""
                   target=""
                   rel="noopener noreferrer"
