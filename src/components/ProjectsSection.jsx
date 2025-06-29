@@ -11,11 +11,11 @@ import img7 from "../assets/tea.png";
 const ProjectsSection = () => {
   return (
     <>
-      <div className=" mt-14  max-w-7xl mx-auto">
-        <h1 className="text-3xl text-center font-bold mb-6">
+      <div className="mt-14 max-w-7xl mx-auto">
+        <h1 className="text-3xl font-bold  mb-4 text-center primary">
           Featured Projects
         </h1>
-        <p className="text-gray-600 mb-10 text-center">
+        <p className="text-gray-600 mb-10 text-center secondary">
           Here are some of my projects
         </p>
 
@@ -87,16 +87,16 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">Lost and Found</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">Lost and Found</h1>
+                <p className="text-gray-500 secondary">
                   A platform that can be used to find lost items and report
                   found items.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>Completed</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">React</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Node.js</span>
@@ -108,7 +108,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/Lost-And-Found-Client"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary primary"
                 >
                   Backend Code
                 </a>
@@ -124,7 +124,7 @@ const ProjectsSection = () => {
                   href="https://lostandfounds.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>
@@ -143,16 +143,16 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">Doctor-Talk</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">Doctor-Talk</h1>
+                <p className="text-gray-500 secondary">
                   A platform for booking doctor appointments and managing health
                   records.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>In Progress</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">React</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Node.js</span>
@@ -164,7 +164,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/Doctor-Talk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -173,7 +173,7 @@ const ProjectsSection = () => {
                   target=""
                   disabled
                   rel="noopener noreferrer"
-                  className="btn btn-secondary "
+                  className="btn btn-secondary primary"
                 >
                   Backend Code
                 </a>
@@ -181,7 +181,7 @@ const ProjectsSection = () => {
                   href="https://doctortalk1.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>
@@ -200,20 +200,20 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">English Janala</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">English Janala</h1>
+                <p className="text-gray-500 secondary">
                   A platform for learning English vocabulary and grammar.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>Completed</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">
                     Javascript
                   </span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Tailwind</span>
+                  <span className="bg-gray-300 p-2 rounded-2xl">css</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">API</span>
                 </div>
               </div>
@@ -222,7 +222,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/English-Janala"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -231,7 +231,7 @@ const ProjectsSection = () => {
                   href=""
                   target=""
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary primary"
                 >
                   Backend Code
                 </a>
@@ -239,7 +239,7 @@ const ProjectsSection = () => {
                   href="https://englishjanala5.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>
@@ -258,19 +258,19 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">Kids School</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">Kids School</h1>
+                <p className="text-gray-500 secondary">
                   A platform for managing school activities and student records.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>In Progress</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Tailwind</span>
+                  <span className="bg-gray-300 p-2 rounded-2xl">tailwind</span>
                 </div>
               </div>
               <div className="p-4 gap-2 flex justify-center">
@@ -278,7 +278,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/Kids-school-responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -287,7 +287,7 @@ const ProjectsSection = () => {
                   href=""
                   target=""
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary primary"
                 >
                   Backend Code
                 </a>
@@ -295,7 +295,7 @@ const ProjectsSection = () => {
                   href="https://shdeveloper12.github.io/Kids-school-responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>
@@ -314,15 +314,15 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">Pet Shop</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">Pet Shop</h1>
+                <p className="text-gray-500 secondary">
                   A platform for managing pet adoption and sales.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>In Progress</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
@@ -334,7 +334,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/Pet-Shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -343,7 +343,7 @@ const ProjectsSection = () => {
                   href=""
                   target=""
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary primary"
                 >
                   Backend Code
                 </a>
@@ -351,7 +351,7 @@ const ProjectsSection = () => {
                   href="https://shdeveloper12.github.io/Pet-Shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>
@@ -370,15 +370,15 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold">Tea House</h1>
-                <p className="text-gray-500">
+                <h1 className="text-xl font-bold primary">Tea House</h1>
+                <p className="text-gray-500 secondary">
                   A platform for managing tea orders and deliveries.
                 </p>
-                <p>
+                <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
                   <span>In Progress</span>
                 </p>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap secondary">
                   <span className="font-bold mt-2">Technologies:</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
                   <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
@@ -390,7 +390,7 @@ const ProjectsSection = () => {
                   href="https://github.com/Shdeveloper12/Tea-House-Responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary"
+                  className="btn btn-primary primary"
                 >
                   Frontend Code
                 </a>
@@ -399,7 +399,7 @@ const ProjectsSection = () => {
                   href=""
                   target=""
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary primary" 
                 >
                   Backend Code
                 </a>
@@ -407,7 +407,7 @@ const ProjectsSection = () => {
                   href="https://shdeveloper12.github.io/Tea-House-Responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent"
+                  className="btn btn-accent primary"
                 >
                   Live Demo
                 </a>

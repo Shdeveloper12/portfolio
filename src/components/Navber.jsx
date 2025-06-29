@@ -13,7 +13,7 @@ const Navbar = () => {
           spy={true}
           offset={-80}
           activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
         >
           About Me
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
           spy={true}
           offset={-80}
           activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
         >
           Skills
         </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
           spy={true}
           offset={-80}
           activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
         >
           Education
         </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
           spy={true}
           offset={-80}
           activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
         >
           Projects
         </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
           spy={true}
           offset={-80}
           activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
         >
           Contact
         </Link>

@@ -14,17 +14,17 @@ const HeroSection = () => {
           className="max-w-sm rounded-t-2xl rounded-br-2xl border-l-8 border-b-8 border-blue-300 w-full lg:w-1/2  shadow-2xl"
         />
         <div className="mr-10 text-center lg:text-left">
-          <h1 className="text-2xl font-bold">Hi, I'm Shafayet!</h1>
+          <h1 className="text-2xl font-bold secondary">Hi, I'm Shafayet!</h1>
           <motion.h1
             animate={{
-              color: ["#0b87e8", "#0be5e8", "#0be873", "#0be5e8", "#0b87e8"],
+              color: ["#0b22e8", "#0ba2e8", "#0bdbe8", "#0be8c3", "#31e023","#31e023","#0be8c3","#0bdbe8","#0ba2e8","#0b22e8"]
             }}
             transition={{ duration: 5, repeat: Infinity }}
-            className="py-6 text-4xl font-bold"
+            className="py-6 text-4xl font-bold primary"
           >
             I Build Modern & Intuitive Web Experiences.
           </motion.h1>
-          <p className="text-gray-700">
+          <p className="text-gray-700 secondary">
             A Passonate <strong className="text-black">web developer</strong>{" "}
             based in Bangladesh, dedicated to turning inovative ideas into
             beautiful, high perfomance beautiful solutions.
