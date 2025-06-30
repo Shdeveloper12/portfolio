@@ -19,7 +19,7 @@ const ProjectsSection = () => {
           Here are some of my projects
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 space-y-5 lg:space-y-0 lg:gap-4 md:gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 lg:grid-cols-3 space-y-5 lg:space-y-0 lg:gap-4 md:gap-4 mt-10">
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden">
               <Link to="/hobbyhub">

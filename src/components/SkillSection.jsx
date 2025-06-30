@@ -14,11 +14,11 @@ import img12 from "../assets//c.jpg";
 
 const SkillSection = () => {
   return (
-    <div className="max-w-7xl mx-auto  mt-14">
+    <div className="max-w-7xl mx-auto  ">
       <h2 className="text-3xl font-bold  mb-4 text-center">Skills Section</h2>
       <p className="text-center">This section will showcase my skills.</p>
 
-      <div className="grid overflow-x-auto md:grid-cols-2 lg:grid-cols-3 space-x-5 md:space-x-0 lg:gap-5 p-4">
+      <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">
         <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
             <img src={img1} alt="Shoes" />

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="mt-14 max-w-7xl mx-auto">
+    <div className="mt-14 max-w-7xl mx-auto p-5">
       <div>
         <h2 className="text-3xl font-bold  mb-4 text-center primary">About Me</h2>
       </div>
@@ -39,7 +39,7 @@ const AboutMe = () => {
             development.
           </p>
 
-          <div className="flex justify-between gap-10 mt-8 border-t-2 p-5">
+          <div className="flex justify-around gap-10 mt-8 border-t-2 p-5">
             <div>
               <div>
                 <h1 className="text-left secondary">Name</h1>
@@ -53,7 +53,7 @@ const AboutMe = () => {
             <div>
               <div>
                 <h2 className="text-left secondary">Email</h2>
-                <p className="font-semibold secondary">shafayet237@gmail.com</p>
+                <p className="font-semibold secondary overflow-wrap: wrap-anywhere text-left">shafayet237@gmail.com</p>
               </div>
               <div>
                 <h2 className="text-left mt-5 secondary">Avaiablity</h2>

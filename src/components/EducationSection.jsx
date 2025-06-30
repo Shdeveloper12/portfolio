@@ -2,7 +2,7 @@ import React from "react";
 
 const EducationSection = () => {
 return (
-    <div className=" mt-12 rounded-lg  max-w-4xl mx-auto">
+    <div className=" mt-5 p-5 rounded-lg  max-w-4xl mx-auto">
         {/* Title and Description */}
         <div className="text-center">
             <h1 className="text-3xl font-bold  mb-4 primary">Education</h1>

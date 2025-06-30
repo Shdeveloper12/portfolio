@@ -1,84 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = () => { 
+const [open, setOpen] = useState(false);
+   const handleLinkClick = () => {
+    setOpen(false);
+   };
   const menuItems = (
     <>
-      <li>
-        <Link
-          to="about"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={-80}
-          activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
-        >
-          About Me
-        </Link>
-      </li>
-
-      <li>
-        <Link
-          to="skills"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={-80}
-          activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
-        >
-          Skills
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="education"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={-80}
-          activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
-        >
-          Education
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="projects"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={-80}
-          activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
-        >
-          Projects
-        </Link>
-      </li>
-
-      <li>
-        <Link
-          to="contact"
-          smooth={true}
-          duration={500}
-          spy={true}
-          offset={-80}
-          activeClass="text-primary font-bold"
-          className="cursor-pointer text-gray-600 hover:text-primary primary font-medium"
-        >
-          Contact
-        </Link>
-      </li>
+     {["about", "skills", "education", "projects", "contact"].map((section) => (
+        <li key={section}>
+          <Link
+            to={section}
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+            onClick={handleLinkClick}
+            activeClass="text-primary font-bold"
+            className="cursor-pointer text-gray-600 hover:text-primary font-medium"
+          >
+            {section.charAt(0).toUpperCase() + section.slice(1)}
+          </Link>
+        </li>
+      ))}
+      
+    
     </>
   );
 
   return (
     <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown" onClick={() => setOpen(!open)}>
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +64,6 @@ const Navbar = () => {
           className="btn btn-outline btn-primary"
           href="https://drive.google.com/file/d/1dyql8IzebI8KAYvbbXcAziKnb7XbdoRI/view?usp=sharing"
           target="_blank"
-          
         >
           Resume
         </a>

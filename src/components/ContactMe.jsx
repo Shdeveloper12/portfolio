@@ -51,7 +51,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="container relative z-10 max-w-7xl mx-auto px-4 py-8 mt-14 mb-8">
+    <div className="container relative z-10 max-w-7xl mx-auto px-4 py-8 mt-8 mb-8">
       <div className=" text-center mb-12">
         <h2 className="text-3xl font-bold  mb-4 primary">Get In Touch</h2>
         <p className="secondary">Let's work together</p>
