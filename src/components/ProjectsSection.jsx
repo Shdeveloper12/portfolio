@@ -77,7 +77,7 @@ const ProjectsSection = () => {
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/lostandfound">
                 <img
                   src={img2}
                   alt="Lost and Found"
@@ -133,7 +133,7 @@ const ProjectsSection = () => {
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/lostandfound">
                 <img
                   src={img3}
                   alt="doctor talk"
