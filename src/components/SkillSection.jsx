@@ -19,9 +19,9 @@ const SkillSection = () => {
       <p className="text-center">This section will showcase my skills.</p>
 
       <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 shadow-md cursor-pointer hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img1} alt="Shoes" />
+            <img src={img1} className="w-full h-55" alt="html" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">HTML</h2>
@@ -33,9 +33,9 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img2} alt="Shoes" />
+            <img src={img2} alt="css" />
           </figure>
           <div className="card-body backdrop:blur-sm">
             <h2 className="card-title">CSS</h2>
@@ -45,9 +45,9 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img3} alt="Shoes" />
+            <img src={img3} alt="tailwindcss" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Tailwind CSS</h2>
@@ -57,9 +57,9 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img4} className="p-8" alt="Shoes" />
+            <img src={img4} className="w-full" alt="javascript" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">JavaScript</h2>
@@ -68,9 +68,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img12} className="p-3" alt="Shoes" />
+            <img src={img12} className="" alt="c programe" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">C</h2>
@@ -80,9 +80,9 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img5} alt="Shoes" />
+            <img src={img5} className="w-full h-55" alt="reactjs" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">React.js</h2>
@@ -91,9 +91,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img6} alt="Shoes" />
+            <img src={img6} className="w-full h-55" alt="firebase" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Firebase</h2>
@@ -102,9 +102,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img7} className="p-4" alt="Shoes" />
+            <img src={img7} className="" alt="mongodb" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">MongoDB</h2>
@@ -113,9 +113,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img8} alt="Shoes" />
+            <img src={img8} alt="nodejs" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Node.js</h2>
@@ -124,9 +124,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img9} alt="Shoes" />
+            <img src={img9} className="h-55 w-full" alt="responsive" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Responsive Design</h2>
@@ -135,9 +135,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img10} className="p-10" alt="Shoes" />
+            <img src={img10} className="w-full h-55" alt="api" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">API Integration</h2>
@@ -146,9 +146,9 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md hover:shadow-lg hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img11} className="p-8" alt="Shoes" />
+            <img src={img11} className="" alt="github" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Version Control</h2>

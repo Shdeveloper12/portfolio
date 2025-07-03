@@ -6,20 +6,20 @@ const AboutMe = () => {
       <div>
         <h2 className="text-3xl font-bold  mb-4 text-center primary">About Me</h2>
       </div>
-      <div className="">
+      <div className="transform-3d ">
         
         <div
           id="about"
-          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4 border rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8"
+          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4 hover:scale-[1.02] shadow-md shadow-blue-300 rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8"
         >
-          <p className="text-gray-700 text-lg leading-relaxed lg:text-justify text-left secondary">
+          <p className="text-gray-400 text-lg leading-relaxed lg:text-justify text-left secondary">
             Hello! I'm Md Shafayet Hossen, a passionate and dedicated MERN stack
             developer with a strong foundation in computer science. Currently, I
             am pursuing my B.Sc. in Computer Science and Engineering at Stamford
             University, Dhaka, after successfully completing a Diploma in
             Engineering (Computer Science).
           </p>
-          <p className="text-gray-700 mt-4 text-lg leading-relaxed lg:text-justify text-left secondary">
+          <p className="text-gray-400 mt-4 text-lg leading-relaxed lg:text-justify text-left secondary">
             My journey in web development began with a deep interest in how
             technology shapes our world. Over time, I developed a strong skill
             set in full-stack development, specializing in MongoDB, Express.js,
@@ -27,22 +27,22 @@ const AboutMe = () => {
             user-friendly web applications that solve real problems and deliver
             great user experiences.
           </p>
-          <p className="text-gray-700 mt-4 text-lg leading-relaxed lg:text-justify text-left secondary">
+          <p className="text-gray-400 mt-4 text-lg leading-relaxed lg:text-justify text-left secondary">
             As a lifelong learner, I’m continuously sharpening my coding skills
             and exploring new technologies. I'm enthusiastic about working on
             meaningful projects, collaborating with others, and growing as a
             full-stack developer in the tech industry.
           </p>
-          <p className="text-gray-700 text-lg mt-4 leading-relaxed lg:text-justify text-left secondary">
+          <p className="text-gray-400 text-lg mt-4 leading-relaxed lg:text-justify text-left secondary">
             When I’m not coding, I enjoy exploring tech communities, learning
             about UI/UX trends, and staying updated with the latest in web
             development.
           </p>
 
-          <div className="flex justify-around gap-10 mt-8 border-t-2 p-5">
+          <div className="flex justify-around gap-10 mt-8 border-t-2 border-blue-500 p-5">
             <div>
               <div>
-                <h1 className="text-left secondary">Name</h1>
+                <h1 className="text-left secondary ">Name</h1>
                 <p className="font-semibold text-left secondary">Md Shafayet Hossen</p>
               </div>
               <div className="mt-5">

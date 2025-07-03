@@ -6,10 +6,14 @@ import ExperienceSection from "./ExperienceSection";
 import EducationSection from "./EducationSection";
 import ProjectsSection from "./ProjectsSection";
 import ContactMe from "./ContactMe";
+import Background from "./Background";
 
 const Home = () => {
   return (
-    <div>
+    <> 
+    
+    
+    <div className="relative">
       <div>
         <div id="home">
           <HeroSection />
@@ -33,6 +37,10 @@ const Home = () => {
         <ContactMe />
       </div>
     </div>
+  
+    </>
+    
+   
   );
 };
 
