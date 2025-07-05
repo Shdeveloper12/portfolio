@@ -15,12 +15,12 @@ const ProjectsSection = () => {
         <h1 className="text-3xl font-bold  mb-4 text-center primary">
           Featured Projects
         </h1>
-        <p className="text-gray-600 mb-10 text-center secondary">
+        <p className="text-gray-300 mb-10 text-center secondary">
           Here are some of my projects
         </p>
 
-        <div className="grid  md:grid-cols-2 gap-3 lg:grid-cols-3 space-y-5 lg:space-y-0 lg:gap-4 md:gap-4 mt-10">
-          <div className="card  bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
+        <div className="grid  md:grid-cols-2 place-content-around gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden">
               <Link to="/hobbyhub">
                 <img
@@ -102,7 +102,7 @@ const ProjectsSection = () => {
                   found items.
                 </p>
                 <p className="secondary">
-                  <span className="font-bold">Status:</span>{" "}
+                  <span className="font-bold mr-2">Status:</span>
                   <span className="bg-green-400 p-1 rounded-md ">
                     Completed
                   </span>
@@ -149,7 +149,7 @@ const ProjectsSection = () => {
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/lostandfound">
+              <Link to="/doctortalk">
                 <img
                   src={img3}
                   alt="doctor talk"
@@ -167,7 +167,7 @@ const ProjectsSection = () => {
                   records.
                 </p>
                 <p className="secondary">
-                  <span className="font-bold">Status:</span>{" "}
+                  <span className="font-bold mr-2">Status:</span>
                   <span className="bg-yellow-400 p-1 rounded-md">
                     In Progress
                   </span>
@@ -212,123 +212,131 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/englishjanala">
                 <img
                   src={img5}
                   alt="english janala"
-                  className="transition-transform duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
+                  className="transition-transform rounded-md duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
               </Link>
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold primary">English Janala</h1>
-                <p className="text-gray-500 secondary">
+                <h1 className="text-xl font-bold primary text-blue-500">
+                  English Janala
+                </h1>
+                <p className="text-gray-400 secondary">
                   A platform for learning English vocabulary and grammar.
                 </p>
                 <p className="secondary">
-                  <span className="font-bold">Status:</span>{" "}
-                  <span>Completed</span>
+                  <span className="font-bold mr-2">Status:</span>
+                  <span className="bg-green-400 p-1 rounded-md">Completed</span>
                 </p>
-                <div className="flex gap-2 flex-wrap secondary">
-                  <span className="font-bold mt-2">Technologies:</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">
+                <div className="flex gap-2 pt-5 secondary ">
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Html
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Taiwindcss
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Javascript
                   </span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">css</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">API</span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    API
+                  </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-center">
+              <div className="p-4 gap-2 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/English-Janala"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Frontend Code
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
-                <a
-                  disabled
-                  href=""
-                  target=""
-                  rel="noopener noreferrer"
-                  className="btn btn-secondary primary"
-                >
-                  Backend Code
-                </a>
+
                 <a
                   href="https://englishjanala5.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Live Demo
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/kidsschool">
                 <img
                   src={img4}
                   alt="kids school"
-                  className="transition-transform duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
+                  className="transition-transform rounded-md duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
               </Link>
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold primary">Kids School</h1>
-                <p className="text-gray-500 secondary">
+                <h1 className="text-xl font-bold primary text-blue-500">
+                  Kids School
+                </h1>
+                <p className="text-gray-400 secondary">
                   A platform for managing school activities and student records.
                 </p>
                 <p className="secondary">
-                  <span className="font-bold">Status:</span>{" "}
-                  <span>In Progress</span>
+                  <span className="font-bold mr-2">Status:</span>
+                  <span className="bg-yellow-400 p-1 rounded-md">
+                    In Progress
+                  </span>
                 </p>
-                <div className="flex gap-2 flex-wrap secondary">
-                  <span className="font-bold mt-2">Technologies:</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">tailwind</span>
+                <div className="flex gap-2 pt-5 secondary">
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Html
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Tailwindcss
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Responsive
+                  </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-center">
+              <div className="p-4 gap-2 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Kids-school-responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Frontend Code
-                </a>
-                <a
-                  disabled
-                  href=""
-                  target=""
-                  rel="noopener noreferrer"
-                  className="btn btn-secondary primary"
-                >
-                  Backend Code
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
                 <a
                   href="https://shdeveloper12.github.io/Kids-school-responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Live Demo
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/petshop">
                 <img
                   src={img6}
                   alt="kids school"
@@ -338,102 +346,114 @@ const ProjectsSection = () => {
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold primary">Pet Shop</h1>
-                <p className="text-gray-500 secondary">
+                <h1 className="text-xl font-bold primary text-blue-500">
+                  Pet Shop
+                </h1>
+                <p className="text-gray-400 secondary">
                   A platform for managing pet adoption and sales.
                 </p>
                 <p className="secondary">
                   <span className="font-bold">Status:</span>{" "}
-                  <span>In Progress</span>
+                  <span className="bg-yellow-400 p-1 rounded-md">
+                    In Progress
+                  </span>
                 </p>
-                <div className="flex gap-2 flex-wrap secondary">
-                  <span className="font-bold mt-2">Technologies:</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Tailwind</span>
+                <div className="flex gap-2 pt-5secondary">
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Html
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Tailwind
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Responsive
+                  </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-center">
+              <div className="p-4 gap-2 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Pet-Shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Frontend Code
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
-                <a
-                  disabled
-                  href=""
-                  target=""
-                  rel="noopener noreferrer"
-                  className="btn btn-secondary primary"
-                >
-                  Backend Code
-                </a>
+
                 <a
                   href="https://shdeveloper12.github.io/Pet-Shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Live Demo
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Live Demo<i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg  shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden">
-              <Link to="/hobbyhub">
+              <Link to="/teahouse">
                 <img
                   src={img7}
                   alt="kids school"
-                  className="transition-transform duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
+                  className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
               </Link>
             </div>
             <div className="">
               <div className="p-6 space-y-3">
-                <h1 className="text-xl font-bold primary">Tea House</h1>
-                <p className="text-gray-500 secondary">
+                <h1 className="text-xl font-bold primary text-blue-500">
+                  Tea House
+                </h1>
+                <p className="text-gray-400 secondary">
                   A platform for managing tea orders and deliveries.
                 </p>
                 <p className="secondary">
-                  <span className="font-bold">Status:</span>{" "}
-                  <span>In Progress</span>
+                  <span className="font-bold mr-2">Status:</span>
+                  <span className="bg-yellow-400 p-1 rounded-md">
+                    In Progress
+                  </span>
                 </p>
                 <div className="flex gap-2 flex-wrap secondary">
-                  <span className="font-bold mt-2">Technologies:</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Html</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Css</span>
-                  <span className="bg-gray-300 p-2 rounded-2xl">Tailwind</span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Html
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Css
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Tailwind
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Responsive
+                  </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-center">
+              <div className="p-4 gap-2 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Tea-House-Responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Frontend Code
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
-                <a
-                  disabled
-                  href=""
-                  target=""
-                  rel="noopener noreferrer"
-                  className="btn btn-secondary primary"
-                >
-                  Backend Code
-                </a>
+
                 <a
                   href="https://shdeveloper12.github.io/Tea-House-Responsive"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent primary"
+                  className="btn shadow-md shadow-blue-300 primary"
                 >
-                  Live Demo
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out"></span>
+                  Live Demo <i class="fa-solid fa-arrow-right "></i>
                 </a>
               </div>
             </div>

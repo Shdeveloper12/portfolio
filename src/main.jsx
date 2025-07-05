@@ -8,6 +8,9 @@ import LostAndFound from "./pages/LostAndFound.jsx";
 import DoctorTalk from "./pages/DoctorTalk.jsx";
 import KidsSchool from "./pages/KidsSchool.jsx";
 import HobbyHub from "./pages/HobbyHub.jsx";
+import EnglishJanala from "./pages/EnglishJanala.jsx";
+import PetShop from "./pages/PetShop.jsx";
+import TeaHouse from "./pages/TeaHouse.jsx";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +40,18 @@ const router = createBrowserRouter([
       {
         path: '/kidsschool',
         element: <KidsSchool />
+      },
+      {
+        path: '/englishjanala',
+        element: <EnglishJanala />
+      },
+      {
+        path: '/petshop',
+        element: <PetShop/>
+      },
+      {
+        path: '/teahouse',
+        element: <TeaHouse />
       }
     ],
   },

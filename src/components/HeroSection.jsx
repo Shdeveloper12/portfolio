@@ -41,7 +41,7 @@ const HeroSection = () => {
             based in Bangladesh, dedicated to turning inovative ideas into
             beautiful, high perfomance beautiful solutions.
           </p>
-          <div className="flex gap-4 my-7 ml-[110px] lg:ml-0 lg:text-left">
+          <div className="flex gap-4 my-7 ml-20 lg:ml-0 lg:text-left">
             <span className="text-4xl text-black shadow-md shadow-blue-300 rounded-md hover:translate-y-1 duration-300 ease-in-out">
               <a href="https://www.facebook.com/SHShafayet237" target="_blank">
                 <i class="fa-brands fa-square-facebook"></i>

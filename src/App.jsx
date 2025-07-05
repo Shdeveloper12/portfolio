@@ -4,17 +4,26 @@ import Navber from './components/Navber'
 import { Outlet } from 'react-router'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import { Helmet } from 'react-helmet'
 
 function App() {
 
 
   return (
     <>
-      
-      <Navber></Navber>
+    <Helmet>
+      <title>Portfolio</title>
+    </Helmet>
+      <div className='flex flex-col min-h-screen'>
+        <Navber></Navber>
       <ScrollToTop></ScrollToTop>
-      <Outlet></Outlet>
+      <main className='flex-grow'>
+        <Outlet></Outlet>
+      </main>
+      
       <Footer></Footer>
+      </div>
+      
 
     </>
   )

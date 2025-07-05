@@ -31,7 +31,7 @@ const [open, setOpen] = useState(false);
   );
 
   return (
-    <div className="navbar bg-base-100 px-12 shadow-sm sticky top-0 z-50">
+    <div className="navbar bg-base-100 px-2 lg:px-12 shadow-sm sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown" onClick={() => setOpen(!open)}>
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
