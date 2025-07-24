@@ -7,6 +7,7 @@ import img4 from "../assets/school.png";
 import img5 from "../assets/english.png";
 import img6 from "../assets/pet.png";
 import img7 from "../assets/tea.png";
+import img8 from "../assets/mcms1.png";
 
 const ProjectsSection = () => {
   return (
@@ -21,13 +22,80 @@ const ProjectsSection = () => {
 
         <div className="grid  md:grid-cols-2 place-content-around gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
+              <Link to="/">
+                <img
+                  src={img8}
+                  alt="Hobbyhub"
+                  className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full"
+                />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
+                
+              </Link>
+            </div>
+            <div className="">
+              <div className="p-6 space-y-3">
+                <h1 className="text-xl font-bold text-blue-500">Medical Camp Management system</h1>
+                <p className="text-gray-400">
+                  A platform for managing medical camps and register participants.
+                </p>
+                <p>
+                  <span className="font-bold mr-2">Status:</span>
+                  <span className="bg-green-400 p-1 rounded-md ">
+                    Completed
+                  </span>
+                </p>
+                <div className="flex gap-2  pt-5">
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Tailwindcss
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    React.js
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Node.js
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Mongodb
+                  </span>
+                </div>
+              </div>
+              <div className="p-4 flex justify-between">
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
+                </a>
+
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right "></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
+            <div className="overflow-hidden relative">
               <Link to="/hobbyhub">
                 <img
                   src={img1}
                   alt="Hobbyhub"
                   className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100  transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -83,13 +151,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/lostandfound">
                 <img
                   src={img2}
                   alt="Lost and Found"
                   className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -148,13 +218,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/doctortalk">
                 <img
                   src={img3}
                   alt="doctor talk"
                   className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -213,13 +285,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/englishjanala">
                 <img
                   src={img5}
                   alt="english janala"
                   className="transition-transform rounded-md duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -275,13 +349,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/kidsschool">
                 <img
                   src={img4}
                   alt="kids school"
                   className="transition-transform rounded-md duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -335,13 +411,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/petshop">
                 <img
                   src={img6}
                   alt="kids school"
                   className="transition-transform duration-500 group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
@@ -396,13 +474,15 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg  shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden relative">
               <Link to="/teahouse">
                 <img
                   src={img7}
                   alt="kids school"
                   className="transition-transform duration-500 rounded-md group-hover:scale-105 object-cover w-full cursor-pointer "
                 />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
               </Link>
             </div>
             <div className="">
