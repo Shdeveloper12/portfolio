@@ -11,6 +11,9 @@ import img9 from "../assets/responsive.jpg";
 import img10 from "../assets/api.png";
 import img11 from "../assets/github.jpg";
 import img12 from "../assets//c.jpg";
+import img13 from "../assets/typescript-logo.png";
+import img14 from "../assets/cpp.png";
+import img15 from "../assets/nextjs.png";
 
 const SkillSection = () => {
   return (
@@ -19,6 +22,29 @@ const SkillSection = () => {
       <p className="text-center">This section will showcase my skills.</p>
 
       <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">
+
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+          <figure>
+            <img src={img12} className="" alt="c programe" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">C</h2>
+            <p className="text-justify">
+             Fundamental programming language known for speed and memory efficiency. Solid understanding of data structures, loops, functions, and pointers.
+            </p>
+          </div>
+        </div>
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+          <figure>
+            <img src={img14} className="w-60" alt="c++ programe" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">C++</h2>
+            <p className="text-justify">
+              Object-oriented programming language that builds on C. Proficient in classes, inheritance, polymorphism, and standard template library (STL) for efficient coding.
+            </p>
+          </div>
+        </div>
         <div className="card bg-base-100 shadow-md cursor-pointer hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
             <img src={img1} className="w-full h-55" alt="html" />
@@ -70,24 +96,35 @@ const SkillSection = () => {
         </div>
         <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img12} className="" alt="c programe" />
+            <img src={img13} className="" alt="typescript" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">C</h2>
+            <h2 className="card-title">TypeScript</h2>
             <p className="text-justify">
-             Fundamental programming language known for speed and memory efficiency. Solid understanding of data structures, loops, functions, and pointers.
+             Superset of JavaScript that adds static types. Enhances code quality and developer productivity with features like interfaces and generics.
             </p>
           </div>
         </div>
 
         <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
           <figure>
-            <img src={img5} className="w-full h-55" alt="reactjs" />
+            <img src={img5} className="w-full h-55" alt="React.js" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">React.js</h2>
             <p className="text-justify">
               Popular JavaScript library for building user interfaces. Proficient in hooks, component-based architecture, routing, and state management.
+            </p>
+          </div>
+        </div>
+        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+          <figure>
+            <img src={img15} className="w-full h-55" alt="Next.js" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Next.js</h2>
+            <p className="text-justify">
+              React framework for building server-side rendered applications. Familiar with file-based routing, API routes, and static site generation.
             </p>
           </div>
         </div>

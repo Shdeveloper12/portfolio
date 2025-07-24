@@ -452,8 +452,9 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out"></span>
+                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
                   Live Demo <i class="fa-solid fa-arrow-right "></i>
+                  </span>
                 </a>
               </div>
             </div>
