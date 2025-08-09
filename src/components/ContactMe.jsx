@@ -60,7 +60,7 @@ const ContactMe = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-8">
         {/* Contact Info Section */}
-        <div className="border shadow-blue-300 shadow-md border-gray-300 p-6 rounded-lg  hover:shadow-lg transition-shadow duration-300">
+        <div className="border shadow-blue-500 shadow-md  p-6 rounded-lg  border-green-400 transition-shadow duration-300">
           <h1 className="text-xl font-bold mt-5 primary text-blue-500">Contact Information</h1>
           <div className="mt-12 space-y-3">
             <p className="secondary">
@@ -138,7 +138,7 @@ const ContactMe = () => {
         </div>
 
         {/* Message Form Section */}
-        <div className="border-2 border-gray-300 p-6  rounded-lg shadow-blue-500 shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="border-2 p-6  rounded-lg shadow-blue-500 shadow-md border-green-400 transition-shadow duration-300">
           <h1 className="text-xl font-bold mt-4 primary text-blue-500">Send Me Message</h1>
           <form className="mt-4 space-y-4" onSubmit={handleSubmit}>
             <div className="mb-4">
