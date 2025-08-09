@@ -14,14 +14,14 @@ return (
             </p>
         </div>
         <div className="grid flex-col-1 lg:grid-cols-2 md:flex-row gap-6 justify-center items-center">
-            <div className="card card-border bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+            <div className="card card-border bg-base-100 w-96 shadow-md border border-green-400 hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body">
                     <h2 className="card-title primary">Bsc in Computer Science</h2>
                     <p className="secondary text-gray-400">
                         I'm studying Bachelor of Science in Computer Science from Stamford
                         University, Dhaka, Bangladesh.
                     </p>
-                    <p className="text-gray-200 font-bold secondary">Stamford University, Dhaka</p>
+                    <p className="text-gray-200 font-bold secondary">Stamford University Bangladesh, Dhaka</p>
                     <p className="text-gray-500 secondary">2024 - Present</p>
                     <p className="text-gray-500 secondary">2027 - Out</p>
                     <div className="card-actions justify-end ">
@@ -33,7 +33,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="card card-border bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+            <div className="card card-border bg-base-100 w-96 border border-green-400 shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body p-8">
                     <h2 className="card-title primary"> Diploma in Computer Science</h2>
                     <p className="secondary text-gray-400">
