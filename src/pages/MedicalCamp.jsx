@@ -45,7 +45,7 @@ const MedicalCamp = () => {
                   <img
                     src={img}
                     alt={`Slide ${index + 1}`}
-                    className=" object-cover w-full h-72 overflow-hidden rounded-2xl"
+                    className=" object-cover w-full h-80 overflow-hidden rounded-2xl"
                   />
                 </div>
               ))}
@@ -76,50 +76,49 @@ const MedicalCamp = () => {
             </div>
           </div>
           <div className="">
-          <div className="text-center space-y-5 p-13 border-2 bg-gray-800  border-gray-300 shadow-blue-300 shadow-md rounded-lg  hover:shadow-lg transition-shadow duration-300 ">
-            <div className="mt-8">
-              <h2 className="text-5xl font-bold primary text-blue-500">
-                HobbyHub
-              </h2>
-              <p className="secondary text-gray-400 mt-4">
-                Discover, Create, and Join Hobby-Based Communities
-              </p>
-            </div>
-            <div className=" gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  justify-between">
-              <a
-                href="https://github.com/Shdeveloper12/Hobby-Hub-Client"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn shadow-md shadow-blue-300"
-              >
-                <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
-                  
-                  Frontend Code<i class="fa-solid fa-arrow-right ml-1"></i>
-                </span>
-              </a>
-              <a
-                href="https://github.com/Shdeveloper12/Hobby-Hub-Server"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn shadow-md shadow-blue-300"
-              >
-                <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
-                  Backend Code <i class="fa-solid fa-arrow-right ml-1"></i>
-                </span>
-              </a>
-              <a
-                href="https://hobbyhub1.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn shadow-md shadow-blue-300"
-              >
-                <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
-                  Live Demo <i class="fa-solid fa-arrow-right ml-1"></i>
-                </span>
-              </a>
+            <div className="text-center space-y-5 p-13 border-2 bg-gray-800  border-gray-300 shadow-blue-300 shadow-md rounded-lg  hover:shadow-lg transition-shadow duration-300 ">
+              <div className="mt-8">
+                <h2 className="text-4xl font-bold primary text-blue-500">
+                  Medical Camp Management System
+                </h2>
+                <p className="secondary text-gray-400 mt-4">
+                  Discover, Create, and Join Medical Camps
+                </p>
+              </div>
+              <div className=" gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  justify-between">
+                <a
+                  href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Client"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Frontend Code<i class="fa-solid fa-arrow-right ml-1"></i>
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Server"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Backend Code <i class="fa-solid fa-arrow-right ml-1"></i>
+                  </span>
+                </a>
+                <a
+                  href="https://medicalcampmanagement.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right ml-1"></i>
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto p-5 my-8">
@@ -128,17 +127,16 @@ const MedicalCamp = () => {
             <i class="fa-solid fa-pen-to-square mr-3"></i>Overview
           </h1>
           <p className="text-gray-400  leading-relaxed lg:text-justify text-left secondary">
-            HobbyHub is a MERN stack-based web platform where users can explore
-            and connect through shared hobbies and interests. Authenticated
-            users can create hobby groups, join existing ones, share ideas, and
-            build community-driven discussions. It's designed to encourage
-            creativity, collaboration, and social interaction around passions —
-            whether it’s painting, coding, hiking, or gaming.
+            The Medical Camp Management System is a comprehensive platform that
+            facilitates the organization and participation in medical camps. It
+            provides separate dashboards for organizers and participants,
+            enabling efficient camp management, registration, and payment
+            processing.
           </p>
         </div>
         <div className="mt-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
-            <div>
+            <div className="">
               <h2 className="text-3xl primary mb-5">
                 <i class="fa-solid fa-bullseye mr-3"></i>Project Goals
               </h2>
@@ -148,8 +146,8 @@ const MedicalCamp = () => {
                   authenticated web app using modern React and Firebase.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Allow users to
-                  create, join, and manage hobby-based groups.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Allow organizers to
+                  create camps, participants can join and manage their registrations.
                 </p>
                 <p>
                   <i class="fa-solid fa-star-of-life mr-3"></i>Provide a clean,
@@ -160,8 +158,8 @@ const MedicalCamp = () => {
                   routes and user data using JWT & Firebase auth.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Enhance the
-                  social aspect of hobbies via group collaboration.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Implement a payment
+                  system for camp registrations.
                 </p>
               </div>
             </div>
@@ -179,13 +177,13 @@ const MedicalCamp = () => {
                       </p>
                       <p>
                         <i class="fa-solid fa-star-of-life mr-3"></i>Create &
-                        Manage Groups
+                        Manage Camps
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Join Groups
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Join Camps
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i> My Group
+                        <i class="fa-solid fa-star-of-life mr-3"></i> My Camp
                         Dashboard
                       </p>
                       <p>
@@ -209,6 +207,13 @@ const MedicalCamp = () => {
                       <p>
                         <i class="fa-solid fa-star-of-life mr-3"></i>Lottie
                         Animations & React Tooltips
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Custom
+                        Hooks
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Payment system using Stripe
                       </p>
                     </div>
                   </div>
@@ -246,8 +251,12 @@ const MedicalCamp = () => {
                   <i class="fa-solid fa-star-of-life mr-3"></i>Lottie-react
                   (animations)
                 </p>
+
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>SweetAlert2
+                  <i class="fa-solid fa-star-of-life mr-3"></i>React Query
+                </p>
+                <p>
+                    <i class="fa-solid fa-star-of-life mr-3"></i>React Final Form
                 </p>
                 <p>
                   <i class="fa-solid fa-star-of-life mr-3"></i>React Hot Toast
@@ -280,6 +289,7 @@ const MedicalCamp = () => {
                   <i class="fa-solid fa-star-of-life mr-3"></i>cookie-parser –
                   token storage in cookies
                 </p>
+
               </div>
             </div>
             <div className="">

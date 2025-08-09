@@ -13,7 +13,7 @@ const ProjectsSection = () => {
   return (
     <>
       <div className="mt-14 max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold  mb-4 text-center primary">
+        <h1 className="text-3xl font-bold  mb-4 text-center text-blue-500 primary">
           Featured Projects
         </h1>
         <p className="text-gray-300 mb-10 text-center secondary">

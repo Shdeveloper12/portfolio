@@ -18,7 +18,7 @@ import img15 from "../assets/nextjs.png";
 const SkillSection = () => {
   return (
     <div className="max-w-7xl mx-auto  ">
-      <h2 className="text-3xl font-bold  mb-4 text-center">Skills Section</h2>
+      <h2 className="text-3xl font-bold  mb-4 text-center text-blue-500">Skills Section</h2>
       <p className="text-center">This section will showcase my skills.</p>
 
       <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">

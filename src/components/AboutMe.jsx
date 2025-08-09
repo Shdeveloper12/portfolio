@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="mt-14 max-w-7xl mx-auto p-5">
       <div>
-        <h2 className="text-3xl font-bold  mb-4 text-center primary">About Me</h2>
+        <h2 className="text-3xl font-bold  mb-4 text-center primary text-blue-500">About Me</h2>
       </div>
       <div className="transform-3d ">
         

@@ -8,7 +8,7 @@ return (
     <div className=" mt-5 p-5 rounded-lg  max-w-4xl mx-auto">
         {/* Title and Description */}
         <div className="text-center">
-            <h1 className="text-3xl font-bold  mb-4 primary">Education</h1>
+            <h1 className="text-3xl font-bold  mb-4 primary text-blue-500">Education</h1>
             <p className="text-gray-300 mt-2 mb-4 secondary">
                 Here are some of the educational qualifications I have achieved.
             </p>
