@@ -69,7 +69,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           className="btn primary shadow-md shadow-blue-400"
-          href="https://drive.google.com/file/d/1hQgNB1oZdZGZZKIVcGGZSr3XiWVVGDKm/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1PuXoEzJm88y9kalAZGegS4JnCC6MdPAO/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >

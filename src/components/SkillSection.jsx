@@ -28,8 +28,8 @@ const SkillSection = () => {
             <img src={img12} className="" alt="c programe" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">C</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">C</h2>
+            <p className="text-justify secondary">
              Fundamental programming language known for speed and memory efficiency. Solid understanding of data structures, loops, functions, and pointers.
             </p>
           </div>
@@ -39,8 +39,8 @@ const SkillSection = () => {
             <img src={img14} className="w-60" alt="c++ programe" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">C++</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">C++</h2>
+            <p className="text-justify secondary">
               Object-oriented programming language that builds on C. Proficient in classes, inheritance, polymorphism, and standard template library (STL) for efficient coding.
             </p>
           </div>
@@ -50,8 +50,8 @@ const SkillSection = () => {
             <img src={img1} className="w-full h-55" alt="html" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">HTML</h2>
-            <p className="text-justify ">
+            <h2 className="card-title primary">HTML</h2>
+            <p className="text-justify secondary">
               Markup language used to structure and present content on the web.
               I use semantic HTML5 elements to create accessible and
               SEO-friendly layouts.
@@ -64,8 +64,8 @@ const SkillSection = () => {
             <img src={img2} alt="css" />
           </figure>
           <div className="card-body backdrop:blur-sm">
-            <h2 className="card-title">CSS</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">CSS</h2>
+            <p className="text-justify secondary">
              Style sheet language for designing beautiful, responsive user interfaces. Skilled in Flexbox, Grid, and modern layout techniques.
             </p>
           </div>
@@ -76,8 +76,8 @@ const SkillSection = () => {
             <img src={img3} alt="tailwindcss" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Tailwind CSS</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Tailwind CSS</h2>
+            <p className="text-justify secondary">
               Utility-first CSS framework that enables rapid UI development. Experienced in building responsive, modern designs with Tailwind and DaisyUI.
             </p>
           </div>
@@ -88,8 +88,8 @@ const SkillSection = () => {
             <img src={img4} className="w-full" alt="javascript" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">JavaScript</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">JavaScript</h2>
+            <p className="text-justify secondary">
              Powerful scripting language used to add interactivity, logic, and dynamic behavior to websites. Proficient in ES6+ features and DOM manipulation.
             </p>
           </div>
@@ -99,8 +99,8 @@ const SkillSection = () => {
             <img src={img13} className="" alt="typescript" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">TypeScript</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">TypeScript</h2>
+            <p className="text-justify secondary">
              Superset of JavaScript that adds static types. Enhances code quality and developer productivity with features like interfaces and generics.
             </p>
           </div>
@@ -111,8 +111,8 @@ const SkillSection = () => {
             <img src={img5} className="w-full h-55" alt="React.js" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">React.js</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">React.js</h2>
+            <p className="text-justify secondary">
               Popular JavaScript library for building user interfaces. Proficient in hooks, component-based architecture, routing, and state management.
             </p>
           </div>
@@ -122,8 +122,8 @@ const SkillSection = () => {
             <img src={img15} className="w-full h-55" alt="Next.js" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Next.js</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Next.js</h2>
+            <p className="text-justify secondary">
               React framework for building server-side rendered applications. Familiar with file-based routing, API routes, and static site generation.
             </p>
           </div>
@@ -133,8 +133,8 @@ const SkillSection = () => {
             <img src={img6} className="w-full h-55" alt="firebase" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Firebase</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Firebase</h2>
+            <p className="text-justify secondary">
               Google’s backend-as-a-service platform. Skilled in Firebase Auth, Firestore, Hosting, and integrating Firebase with React for secure apps.
             </p>
           </div>
@@ -144,8 +144,8 @@ const SkillSection = () => {
             <img src={img7} className="" alt="mongodb" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">MongoDB</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">MongoDB</h2>
+            <p className="text-justify secondary">
               NoSQL database for flexible and scalable data storage. Experience in designing schemas, querying data, and using it with Mongoose in Node.js apps.
             </p>
           </div>
@@ -155,8 +155,8 @@ const SkillSection = () => {
             <img src={img8} alt="nodejs" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Node.js</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Node.js</h2>
+            <p className="text-justify secondary">
               JavaScript runtime for building fast, scalable server-side applications. Comfortable working with Express.js and RESTful API development.
             </p>
           </div>
@@ -166,8 +166,8 @@ const SkillSection = () => {
             <img src={img9} className="h-55 w-full" alt="responsive" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Responsive Design</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Responsive Design</h2>
+            <p className="text-justify secondary">
               Skilled in creating mobile-first and fully responsive websites using CSS media queries, Flexbox, Grid, and utility frameworks like Tailwind CSS to ensure a seamless experience across all devices.
             </p>
           </div>
@@ -177,8 +177,8 @@ const SkillSection = () => {
             <img src={img10} className="w-full h-55" alt="api" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">API Integration</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">API Integration</h2>
+            <p className="text-justify secondary">
               Able to consume and integrate RESTful APIs and third-party services. Proficient in fetching, displaying, and manipulating data using Axios or Fetch API in both frontend and backend.
             </p>
           </div>
@@ -188,8 +188,8 @@ const SkillSection = () => {
             <img src={img11} className="" alt="github" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Version Control</h2>
-            <p className="text-justify">
+            <h2 className="card-title primary">Version Control</h2>
+            <p className="text-justify secondary">
               Comfortable with version control using Git and collaborating on projects via GitHub. Proficient in pushing code, managing branches, handling pull requests, and tracking project history.
             </p>
           </div>

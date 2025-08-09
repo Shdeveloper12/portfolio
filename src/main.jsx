@@ -11,7 +11,7 @@ import HobbyHub from "./pages/HobbyHub.jsx";
 import EnglishJanala from "./pages/EnglishJanala.jsx";
 import PetShop from "./pages/PetShop.jsx";
 import TeaHouse from "./pages/TeaHouse.jsx";
-
+import MedicalCamp from "./pages/MedicalCamp.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/herosection",
         
+      },
+      {
+        path: "/mcms",
+        element: <MedicalCamp />
       },
       {
         path: '/hobbyhub',

@@ -20,10 +20,10 @@ const ProjectsSection = () => {
           Here are some of my projects
         </p>
 
-        <div className="grid  md:grid-cols-2 place-content-around gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
+        <div className="grid  md:grid-cols-2 place-content-around gap-4 lg:grid-cols-4 space-y-5  lg:gap-4 md:gap-4 mt-10">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
-              <Link to="/">
+              <Link to="/mcms">
                 <img
                   src={img8}
                   alt="Hobbyhub"
@@ -37,16 +37,16 @@ const ProjectsSection = () => {
             <div className="">
               <div className="p-6 space-y-3">
                 <h1 className="text-xl font-bold text-blue-500">Medical Camp Management system</h1>
-                <p className="text-gray-400">
+                <p className="text-gray-400 secondary">
                   A platform for managing medical camps and register participants.
                 </p>
                 <p>
-                  <span className="font-bold mr-2">Status:</span>
-                  <span className="bg-green-400 p-1 rounded-md ">
+                  <span className="font-bold mr-2 ">Status:</span>
+                  <span className="bg-green-400 primary p-1 rounded-md ">
                     Completed
                   </span>
                 </p>
-                <div className="flex gap-2  pt-5">
+                <div className="flex gap-2 text-cyan-400 secondary font-bold pt-5">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Tailwindcss
                   </span>
@@ -63,24 +63,24 @@ const ProjectsSection = () => {
               </div>
               <div className="p-4 flex justify-between">
                 <a
-                  href="/"
+                  href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Client"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
 
                 <a
-                  href="/"
+                  href="https://medicalcampmanagement.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
-                    Live Demo <i class="fa-solid fa-arrow-right "></i>
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right"></i>
                   </span>
                 </a>
               </div>
@@ -101,16 +101,16 @@ const ProjectsSection = () => {
             <div className="">
               <div className="p-6 space-y-3">
                 <h1 className="text-xl font-bold text-blue-500">Hobbyhub</h1>
-                <p className="text-gray-400">
+                <p className="text-gray-400 secondary">
                   A platform for sharing and discovering hobbies.
                 </p>
                 <p>
                   <span className="font-bold mr-2">Status:</span>
-                  <span className="bg-green-400 p-1 rounded-md ">
+                  <span className="bg-green-400 p-1 rounded-md primary">
                     Completed
                   </span>
                 </p>
-                <div className="flex gap-2  pt-5">
+                <div className="flex gap-2  pt-5 secondary font-bold text-cyan-400">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Tailwindcss
                   </span>
@@ -132,7 +132,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -143,7 +143,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -171,13 +171,13 @@ const ProjectsSection = () => {
                   A platform that can be used to find lost items and report
                   found items.
                 </p>
-                <p className="secondary">
+                <p >
                   <span className="font-bold mr-2">Status:</span>
-                  <span className="bg-green-400 p-1 rounded-md ">
+                  <span className="bg-green-400 p-1 rounded-md primary">
                     Completed
                   </span>
                 </p>
-                <div className="flex gap-2  secondary pt-5">
+                <div className="flex gap-2 text-cyan-400 font-bold secondary pt-5">
                   <span className="bg-gray-700  p-2 rounded-2xl shadow-md shadow-blue-300">
                     Tailwindcss
                   </span>
@@ -199,7 +199,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -210,7 +210,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary "
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -238,13 +238,13 @@ const ProjectsSection = () => {
                   A platform for booking doctor appointments and managing health
                   records.
                 </p>
-                <p className="secondary">
+                <p className="">
                   <span className="font-bold mr-2">Status:</span>
-                  <span className="bg-yellow-400 p-1 rounded-md">
+                  <span className="bg-yellow-400 p-1 rounded-md primary">
                     In Progress
                   </span>
                 </p>
-                <div className="flex gap-2  secondary pt-5">
+                <div className="flex gap-2 font-bold text-cyan-400 secondary pt-5">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Tailwindcss
                   </span>
@@ -266,7 +266,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -277,7 +277,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300  primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo<i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -304,11 +304,11 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for learning English vocabulary and grammar.
                 </p>
-                <p className="secondary">
+                <p className="">
                   <span className="font-bold mr-2">Status:</span>
                   <span className="bg-green-400 p-1 rounded-md">Completed</span>
                 </p>
-                <div className="flex gap-2 pt-5 secondary ">
+                <div className="flex gap-2 pt-5 secondary text-cyan-400 font-bold">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Html
                   </span>
@@ -330,7 +330,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -341,7 +341,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -368,13 +368,13 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for managing school activities and student records.
                 </p>
-                <p className="secondary">
+                <p className="">
                   <span className="font-bold mr-2">Status:</span>
                   <span className="bg-yellow-400 p-1 rounded-md">
                     In Progress
                   </span>
                 </p>
-                <div className="flex gap-2 pt-5 secondary">
+                <div className="flex gap-2 pt-5 secondary text-cyan-400 font-bold">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Html
                   </span>
@@ -393,7 +393,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -403,7 +403,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -430,13 +430,13 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for managing pet adoption and sales.
                 </p>
-                <p className="secondary">
+                <p className="">
                   <span className="font-bold">Status:</span>{" "}
                   <span className="bg-yellow-400 p-1 rounded-md">
                     In Progress
                   </span>
                 </p>
-                <div className="flex gap-2 pt-5secondary">
+                <div className="flex gap-2 pt-5 secondary text-cyan-400 font-bold">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Html
                   </span>
@@ -455,7 +455,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 priamry transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -466,7 +466,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Live Demo<i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -493,13 +493,13 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for managing tea orders and deliveries.
                 </p>
-                <p className="secondary">
+                <p className="">
                   <span className="font-bold mr-2">Status:</span>
                   <span className="bg-yellow-400 p-1 rounded-md">
                     In Progress
                   </span>
                 </p>
-                <div className="flex gap-2 flex-wrap secondary">
+                <div className="flex gap-2 flex-wrap secondary text-cyan-400 font-bold">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Html
                   </span>
@@ -521,7 +521,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                     Github Code <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>
@@ -532,7 +532,7 @@ const ProjectsSection = () => {
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300 primary"
                 >
-                  <span className="hover:translate-x-1 transition-all duration-300 ease-in-out">
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
                   Live Demo <i class="fa-solid fa-arrow-right "></i>
                   </span>
                 </a>

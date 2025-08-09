@@ -14,7 +14,7 @@ return (
             </p>
         </div>
         <div className="grid flex-col-1 lg:grid-cols-2 md:flex-row gap-6 justify-center items-center">
-            <div className="card card-border bg-base-100 w-96 shadow-md border border-green-400 hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+            <div className="card card-border bg-base-100 w-96 shadow-md border border-green-400  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body">
                     <h2 className="card-title primary">Bsc in CSE</h2>
                     <p className="secondary text-gray-400 mb-2">
@@ -27,7 +27,7 @@ return (
                     <div className="card-actions justify-end ">
                         <button className="btn  shadow-md shadow-blue-300  primary">
                             <a href="https://www.stamforduniversity.edu.bd" target="_blank" rel="noopener noreferrer">
-                                <span className="">View Details</span>
+                                <span className="hover:translate-y-1 transition-all duration-300 ease-in-out">View Details</span>
                             </a>
                         </button>
                     </div>
@@ -45,7 +45,7 @@ return (
                     <div className="card-actions justify-end">
                         <button className="btn shadow-md shadow-blue-300 primary">
                             <a href="https://rangpur.polytech.gov.bd" target="_blank" rel="noopener noreferrer">
-                                View Details
+                                <span className="hover:translate-y-1 transition-all duration-300 ease-in-out">View Details</span>
                             </a>
                         </button>
                     </div>
