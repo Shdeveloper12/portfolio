@@ -23,7 +23,7 @@ const SkillSection = () => {
 
       <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">
 
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img12} className="" alt="c programe" />
           </figure>
@@ -34,7 +34,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md border-green-400 shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border">
           <figure>
             <img src={img14} className="w-60" alt="c++ programe" />
           </figure>
@@ -45,7 +45,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-md cursor-pointer hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 shadow-md  cursor-pointer  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img1} className="w-full h-55" alt="html" />
           </figure>
@@ -59,7 +59,7 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img2} alt="css" />
           </figure>
@@ -71,7 +71,7 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img3} alt="tailwindcss" />
           </figure>
@@ -83,7 +83,7 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img4} className="w-full" alt="javascript" />
           </figure>
@@ -94,7 +94,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img13} className="" alt="typescript" />
           </figure>
@@ -106,7 +106,7 @@ const SkillSection = () => {
           </div>
         </div>
 
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img5} className="w-full h-55" alt="React.js" />
           </figure>
@@ -117,7 +117,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img15} className="w-full h-55" alt="Next.js" />
           </figure>
@@ -128,7 +128,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img6} className="w-full h-55" alt="firebase" />
           </figure>
@@ -139,7 +139,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img7} className="" alt="mongodb" />
           </figure>
@@ -150,7 +150,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img8} alt="nodejs" />
           </figure>
@@ -161,7 +161,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img9} className="h-55 w-full" alt="responsive" />
           </figure>
@@ -172,7 +172,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img10} className="w-full h-55" alt="api" />
           </figure>
@@ -183,7 +183,7 @@ const SkillSection = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 cursor-pointer shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-base-200">
+        <div className="card bg-base-100 cursor-pointer shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out border border-green-400">
           <figure>
             <img src={img11} className="" alt="github" />
           </figure>
