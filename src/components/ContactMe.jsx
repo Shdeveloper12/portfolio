@@ -63,25 +63,25 @@ const ContactMe = () => {
         <div className="border shadow-blue-500 shadow-md  p-6 rounded-lg  border-green-400 transition-shadow duration-300">
           <h1 className="text-xl font-bold mt-5 primary text-blue-500">Contact Information</h1>
           <div className="mt-12 space-y-3">
-            <p className="secondary">
+            <p className="">
               <i className="fa-solid fa-envelope"></i>{" "}
-              <span className="font-bold">Email:</span>{" "}
-              <a className="text-gray-300" href="mailto:shafayet237@gmail.com">
-                shafayet237@gmail.com
+              <span className="font-bold primary">Email:</span>{" "}
+              <a className="text-gray-300 secondary" href="mailto:shafayet237@gmail.com">
+                 shafayet237@gmail.com
               </a>
             </p>
-            <p className="secondary">
+            <p className="">
               <i className="fa-solid fa-phone"></i>{" "}
-              <span className="font-bold">Phone:</span>{" "}
-              <a className="text-gray-300" href="tel:+8801707019394">
+              <span className="font-bold primary">Phone:</span>{" "}
+              <a className="text-gray-300 secondary" href="tel:+8801707019394">
                 +8801707019394
               </a>
             </p>
-            <p className="secondary">
+            <p className="">
               <i className="fa-brands fa-linkedin"></i>{" "}
-              <span className="font-bold">LinkedIn:</span>{" "}
+              <span className="font-bold primary">LinkedIn:</span>{" "}
               <a
-                className="text-gray-300"
+                className="text-gray-300 secondary"
                 href="https://www.linkedin.com/in/md-shafayet-hossen"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -89,11 +89,11 @@ const ContactMe = () => {
                 Md Shafayet Hossain
               </a>
             </p>
-            <p className="secondary">
-              <i className="fa-brands fa-github"></i>{" "}
-              <span className="font-bold">GitHub:</span>{" "}
+            <p className="">
+              <i className="fa-brands fa-github "></i>{" "}
+              <span className="font-bold primary">GitHub:</span>{" "}
               <a
-                className="text-gray-300"
+                className="text-gray-300 secondary"
                 href="https://github.com/Shdeveloper12"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,11 +101,11 @@ const ContactMe = () => {
                 Md Shafayet Hossain
               </a>
             </p>
-            <p className="secondary">
+            <p className="">
               <i className="fa-brands fa-facebook"></i>{" "}
-              <span className="font-bold">Facebook:</span>{" "}
+              <span className="font-bold primary">Facebook:</span>{" "}
               <a
-                className="text-gray-300"
+                className="text-gray-300 secondary"
                 href="https://www.facebook.com/SHShafayet237"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -113,11 +113,11 @@ const ContactMe = () => {
                 SH Shafayet
               </a>
             </p>
-            <p className="secondary">
+            <p className="">
               <i className="fa-brands fa-twitter"></i>{" "}
-              <span className="font-bold">Twitter:</span>{" "}
+              <span className="font-bold primary">Twitter:</span>{" "}
               <a
-                className="text-gray-300"
+                className="text-gray-300 secondary"
                 href="https://x.com/SHDeveloper1"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -125,14 +125,13 @@ const ContactMe = () => {
                 Md Shafayet Hossen
               </a>
             </p>
-            <p className="text-gray-300 secondary">
-              <i className="fa-solid fa-location-dot"></i> <span className="font-bold">Location:</span> Dhaka,
-              Bangladesh
+            <p className="text-gray-300 ">
+              <i className="fa-solid fa-location-dot"></i> <span className="font-bold">Location:</span> <span className="secondary">Dhaka,</span>
+              <span className="secondary">Bangladesh</span>
             </p>
             <h1 className="text-xl font-bold mt-8 primary text-blue-500">Current Status</h1>
             <p className="font-semibold my-2 secondary">
-              <i class="fa-solid fa-circle text-green-500"></i> Available for freelance
-              projects
+              <i class="fa-solid fa-circle text-green-500"></i> Available for <span className="font-bold">Remote Work</span>
             </p>
           </div>
         </div>
@@ -189,7 +188,7 @@ const ContactMe = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="btn  shadow-blue-300  shadow-md font-bold w-full secondary">
+            <button type="submit" className="btn  shadow-blue-300  shadow-md font-bold w-full primary">
               <span className="hover:translate-y-1 duration-300 ease-in-out">Send Message</span>
             </button>
           </form>

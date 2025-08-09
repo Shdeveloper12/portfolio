@@ -21,7 +21,7 @@ const ProjectsSection = () => {
         </p>
 
         <div className="grid  md:grid-cols-2 place-content-around gap-4 lg:grid-cols-4 space-y-5  lg:gap-4 md:gap-4 mt-10">
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/mcms">
                 <img
@@ -86,7 +86,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-300 hover:scale-105 transition-transform duration-300 ease-in-out ">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-500 hover:scale-105 transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/hobbyhub">
                 <img
@@ -150,7 +150,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/lostandfound">
                 <img
@@ -217,7 +217,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/doctortalk">
                 <img
@@ -284,7 +284,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/englishjanala">
                 <img
@@ -348,7 +348,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/kidsschool">
                 <img
@@ -410,7 +410,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/petshop">
                 <img
@@ -473,7 +473,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg  shadow-blue-300 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg  shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/teahouse">
                 <img

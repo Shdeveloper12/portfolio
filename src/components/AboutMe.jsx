@@ -10,7 +10,7 @@ const AboutMe = () => {
         
         <div
           id="about"
-          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4 hover:scale-[1.02] border border-green-400 shadow-md shadow-blue-300 rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8"
+          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4 hover:scale-[1.02] border border-green-400 shadow-md shadow-blue-500 rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8"
         >
           <p className="text-gray-400 text-lg leading-relaxed lg:text-justify text-left secondary">
             Hello! I'm Md Shafayet Hossen, a passionate and dedicated full-stack
