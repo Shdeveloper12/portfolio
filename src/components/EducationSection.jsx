@@ -16,9 +16,9 @@ return (
         <div className="grid flex-col-1 lg:grid-cols-2 md:flex-row gap-6 justify-center items-center">
             <div className="card card-border bg-base-100 w-96 shadow-md border border-green-400 hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body">
-                    <h2 className="card-title primary">Bsc in Computer Science</h2>
-                    <p className="secondary text-gray-400">
-                        I'm studying Bachelor of Science in Computer Science from Stamford
+                    <h2 className="card-title primary">Bsc in CSE</h2>
+                    <p className="secondary text-gray-400 mb-2">
+                        I'm studying Bachelor of Science in Computer Science and Engineering from Stamford
                         University, Dhaka, Bangladesh.
                     </p>
                     <p className="text-gray-200 font-bold secondary">Stamford University Bangladesh, Dhaka</p>
@@ -33,11 +33,11 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="card card-border bg-base-100 w-96 border border-green-400 shadow-md hover:shadow-lg shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+            <div className="card card-border bg-base-100 w-96 border border-green-400 shadow-md  shadow-blue-300 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body p-8">
                     <h2 className="card-title primary"> Diploma in Computer Science</h2>
-                    <p className="secondary text-gray-400">
-                        Completed my Diploma in Computer Science from Rangpur Polytechnic
+                    <p className="secondary text-gray-400 mb-2">
+                        Completed my Diploma in Computer Science and Engineering from Rangpur Polytechnic
                         Institute, Rangpur, Bangladesh.
                     </p>
                     <p className="text-gray200 secondary font-bold">Rangpur Polytechnic Institute, Rangpur</p>
