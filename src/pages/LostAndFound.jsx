@@ -74,7 +74,7 @@ const HobbyHub = () => {
           </div>
           <div className="text-center space-y-5 p-8 border-2 border-gray-300  rounded-lg shadow-md shadow-blue-300 hover:shadow-lg transition-shadow duration-300 ">
             <div className="mt-8">
-              <h2 className="text-5xl font-bold primary text-blue-500">
+              <h2 className="text-4xl font-bold primary text-blue-500">
                 Lost And Found
               </h2>
               <p className="secondary text-gray-400 mt-4">
