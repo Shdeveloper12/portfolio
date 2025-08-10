@@ -51,14 +51,12 @@ const ProjectsSection = () => {
                     Tailwindcss
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    React.js
+                    ReactJS
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Node.js
+                    NodeJS
                   </span>
-                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Mongodb
-                  </span>
+                 
                 </div>
               </div>
               <div className="p-4 flex justify-between">
@@ -115,14 +113,12 @@ const ProjectsSection = () => {
                     Tailwindcss
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    React.js
+                    ReactJS
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Node.js
+                    NodeJS
                   </span>
-                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Mongodb
-                  </span>
+                  
                 </div>
               </div>
               <div className="p-4 flex justify-between">
@@ -182,14 +178,12 @@ const ProjectsSection = () => {
                     Tailwindcss
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    React
+                    ReactJS
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Node.js
+                    NodeJS
                   </span>
-                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Mongodb
-                  </span>
+                  
                 </div>
               </div>
               <div className="p-4 gap-2 flex justify-between">
@@ -249,13 +243,13 @@ const ProjectsSection = () => {
                     Tailwindcss
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    React
+                    ReactJS
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Node.js
+                    NodeJS
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Express
+                    API
                   </span>
                 </div>
               </div>
