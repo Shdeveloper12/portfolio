@@ -12,6 +12,7 @@ import EnglishJanala from "./pages/EnglishJanala.jsx";
 import PetShop from "./pages/PetShop.jsx";
 import TeaHouse from "./pages/TeaHouse.jsx";
 import MedicalCamp from "./pages/MedicalCamp.jsx";
+import Gradient from "./pages/Gradient.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/mcms",
         element: <MedicalCamp />
+      },
+      {
+        path: '/gradient',
+        element: <Gradient />
       },
       {
         path: '/hobbyhub',

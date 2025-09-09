@@ -1,0 +1,116 @@
+.rotating-border-box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #1d2251;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Animated gradient border with rotation and color changes */
+.rotating-border-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 4px; /* border thickness */
+  border-radius: 12px;
+  background: conic-gradient(
+    from 0deg,
+     #96ceb4,
+     #38f8d2,
+     #ff0080,
+    #ffeaa7,
+    
+    
+    #0078ff,
+    
+   
+    
+    #38f8d2
+  );
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: rotate-colors 4s linear infinite;
+  z-index: 0;
+}
+
+/* Rotating colors animation */
+@keyframes rotate-colors {
+  0% {
+    
+    background: conic-gradient(
+      from 0deg,
+      #38f8d2,
+      #0078ff,
+      #ff0080,
+      #96ceb4,
+      #ffeaa7,
+      #38f8d2
+    );
+  }
+  25% {
+    
+    background: conic-gradient(
+      from 90deg,
+      #0078ff,
+      #ff0080,
+      #96ceb4,
+      #ffeaa7,
+      #38f8d2,
+      #0078ff
+    );
+  }
+  50% {
+    
+    background: conic-gradient(
+      from 180deg,
+      #ff0080,
+      #96ceb4,
+      #ffeaa7,
+      #38f8d2,
+      #0078ff,
+      #ff0080
+    );
+  }
+  75% {
+    
+    background: conic-gradient(
+      from 270deg,
+      #96ceb4,
+      #ffeaa7,
+      #38f8d2,
+      #0078ff,
+      #ff0080,
+      #96ceb4
+    );
+  }
+  100% {
+    
+    background: conic-gradient(
+      from 360deg,
+      #38f8d2,
+      #0078ff,
+      #ff0080,
+      #96ceb4,
+      #ffeaa7,
+      #38f8d2,
+      
+    );
+
+  }
+  
+
+
+}
+
+

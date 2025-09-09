@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img from "../assets/personal-pic.jpg";
+import img from "../../public/formal.png";
 import { Link } from "react-scroll";
+import { stop } from "framer-motion/client";
 const HeroSection = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
@@ -9,9 +10,10 @@ const HeroSection = () => {
         <motion.img
           animate={{ y: [0, -20, 0] }}
           transition={{ duration: 5, repeat: Infinity }}
+          whileHover={{ scale: 1.05 }}
           src={img}
           alt="Personal"
-          className="max-w-sm rounded-t-2xl shadow-blue-500 rounded-br-2xl border-l-8 border-b-8 border-green-400 w-full lg:w-1/2  shadow-lg "
+          className="max-w-sm rounded-t-2xl shadow-blue-500 hover:cursor-pointer rounded-br-2xl border-l-8 border-b-8 border-blue-500 w-full lg:w-1/2  shadow-lg "
         />
         <div className="mr-10 text-center lg:text-left">
           <h1 className="text-2xl font-bold secondary">Hi, I'm Shafayet!</h1>
