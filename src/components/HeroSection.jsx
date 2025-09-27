@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img from "../../public/formal.png";
+import img from "../assets/formal.png";
 import { Link } from "react-scroll";
 import { stop } from "framer-motion/client";
 const HeroSection = () => {
