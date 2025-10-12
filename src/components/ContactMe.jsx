@@ -24,7 +24,7 @@ const ContactMe = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        if (data.insertedId || data.acknowledged) {
+        if (data.insertedId) {
           Swal.fire({
             icon: "success",
             title: "Message Sent!",

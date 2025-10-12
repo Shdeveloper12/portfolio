@@ -5,6 +5,7 @@ import { Outlet } from 'react-router'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import { Helmet } from 'react-helmet'
+import FluidSmoke from './components/FluidSmoke'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <div className='flex flex-col min-h-screen'>
         <Navber></Navber>
       <ScrollToTop></ScrollToTop>
+      <FluidSmoke></FluidSmoke>
       <main className='flex-grow'>
         <Outlet></Outlet>
       </main>
