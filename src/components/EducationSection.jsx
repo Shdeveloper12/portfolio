@@ -5,25 +5,25 @@ const EducationSection = () => {
 return (
     <div className="relative">
         
-    <div className=" mt-5 p-5 rounded-lg  max-w-4xl mx-auto">
+    <div className=" mt-8 p-5 rounded-lg  max-w-4xl mx-auto">
         {/* Title and Description */}
         <div className="text-center">
             <h1 className="text-3xl font-bold  mb-4 primary text-blue-500">Education</h1>
-            <p className="text-gray-300 mt-2 mb-4 secondary">
+            <p className="text-gray-300 mt-2 mb-8 secondary">
                 Here are some of the educational qualifications I have achieved.
             </p>
         </div>
         <div className="grid flex-col-1 lg:grid-cols-2 md:flex-row gap-6 justify-center items-center">
             <div className="card card-border bg-base-100 w-96 shadow-md border border-green-400  shadow-blue-500 hover:scale-[1.02] transition-transform duration-300 ease-in-out">
                 <div className="card-body">
-                    <h2 className="card-title primary">Bsc in CSE</h2>
+                    <h2 className="card-title primary">Bsc in Computer Science Engineering</h2>
                     <p className="secondary text-gray-400 mb-2">
                         I'm studying Bachelor of Science in Computer Science and Engineering from Stamford
                         University, Dhaka, Bangladesh.
                     </p>
                     <p className="text-gray-200 font-bold secondary">Stamford University Bangladesh, Dhaka.</p>
                     <p className="text-gray-500 secondary">2024 - Present</p>
-                    <p className="text-gray-500 secondary">2027 - Out</p>
+                    <p className="text-gray-500 secondary">2028 - Out</p>
                     <div className="card-actions justify-end ">
                         <button className="btn  shadow-md shadow-blue-300  primary">
                             <a href="https://www.stamforduniversity.edu.bd" target="_blank" rel="noopener noreferrer">

@@ -19,11 +19,11 @@ import { motion } from "framer-motion";
 
 const SkillSection = () => {
   return (
-    <div className="max-w-7xl mx-auto  ">
+    <div className="max-w-7xl mx-auto  mt-8 p-5">
       <h2 className="text-3xl font-bold  mb-4 text-center text-blue-500">
         Skills Section
       </h2>
-      <p className="text-center">This section will showcase my skills.</p>
+      <p className="text-center secondary mb-8">This section will showcase my skills.</p>
 
       <div className="grid gap-5 mx-auto overflow-x-auto md:grid-cols-2 lg:grid-cols-3  md:space-x-0 lg:gap-5 p-4">
         <motion.div
