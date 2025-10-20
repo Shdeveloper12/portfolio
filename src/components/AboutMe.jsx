@@ -1,8 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <div className="mt-14 max-w-7xl mx-auto p-5">
+    <motion.div 
+     initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+    
+    className="mt-14 max-w-7xl mx-auto p-5">
       <div>
         <h2 className="text-3xl font-bold  mb-4 text-center primary text-blue-500">About Me</h2>
       </div>
@@ -65,7 +70,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
