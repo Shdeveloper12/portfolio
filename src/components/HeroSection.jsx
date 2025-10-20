@@ -35,13 +35,13 @@ const HeroSection = () => {
             transition={{ duration: 5, repeat: Infinity }}
             className="py-6 text-4xl font-bold primary"
           >
-            I Build Modern & Intuitive Web Experiences.
+            I build Full-Stack Web Applications, and Websites.
           </motion.h1>
-          <p className="text-gray-400 secondary">
-            A Passonate{" "}
+          <p className="text-gray-400 text-lg secondary">
+            A Passionate{" "}
             <strong className="primary text-blue-500">Full-stack developer</strong>{" "}
-            based in Bangladesh, dedicated to turning inovative ideas into
-            beautiful, high perfomance beautiful solutions.
+            based in Bangladesh, dedicated to turning innovative ideas into
+            beautiful, high-performance solutions.
           </p>
           <div className="flex gap-4 my-7 ml-20 lg:ml-0 lg:text-left">
             <span className="text-4xl text-black shadow-md shadow-blue-300 rounded-md hover:translate-y-1 duration-300 ease-in-out">
