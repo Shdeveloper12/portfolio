@@ -1,14 +1,15 @@
 import React from "react";
-import { motion} from "framer-motion";
+import { motion } from "framer-motion";
 import img from "../assets/formal.png";
 import { Link } from "react-scroll";
 import { stop } from "framer-motion/client";
 import SplitText from "./splitText";
+import TextType from "./TextType";
 
 const HeroSection = () => {
   const handleAnimationComplete = () => {
-  console.log('All letters have animated!');
-};
+    console.log("All letters have animated!");
+  };
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content  flex-col lg:flex-row-reverse">
@@ -22,7 +23,7 @@ const HeroSection = () => {
         />
         <div className="mr-10 text-center lg:text-left">
           <SplitText
-            text="Hello, I'm Md Shafayet Hossen"
+            text="Hello, I'm Shafayet"
             className="text-2xl font-semibold text-center"
             delay={100}
             duration={0.6}
@@ -34,10 +35,22 @@ const HeroSection = () => {
             rootMargin="-100px"
             onLetterAnimationComplete={handleAnimationComplete}
           />
-          
+          <div className="text-3xl lg:text-4xl font-bold text-blue-600 my-4 h-12 flex items-center justify-center lg:justify-start">
+             <TextType
+            text={["Full Stack Developer", "React Developer", "Next.js Developer", "Node.js Developer"]}
+            typingSpeed={75}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="|"
+          />
+          </div>
+         
+
           <p className="text-gray-400 text-lg secondary">
             A Passionate{" "}
-            <strong className="primary text-blue-500">Full-stack developer</strong>{" "}
+            <strong className="primary text-blue-500">
+              Full-stack developer
+            </strong>{" "}
             based in Bangladesh, dedicated to turning innovative ideas into
             beautiful, high-performance solutions.
           </p>
@@ -53,7 +66,10 @@ const HeroSection = () => {
               </a>
             </span>
             <span className="text-4xl text-black shadow-md shadow-blue-300 rounded-md hover:translate-y-1 duration-300 ease-in-out">
-              <a href="https://www.linkedin.com/in/md-shafayet-hossen" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/md-shafayet-hossen"
+                target="_blank"
+              >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </span>
