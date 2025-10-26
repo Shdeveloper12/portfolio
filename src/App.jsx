@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import './App.css'
 import Navber from './components/Navber'
 import { Outlet } from 'react-router'
-import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import { Helmet } from 'react-helmet'
-import FluidSmoke from './components/FluidSmoke'
+
+// Lazy load heavy components
+const Footer = lazy(() => import('./components/Footer'))
+const FluidSmoke = lazy(() => import('./components/FluidSmoke'))
 
 function App() {
 
@@ -18,12 +20,16 @@ function App() {
       <div className='flex flex-col min-h-screen'>
         <Navber></Navber>
       <ScrollToTop></ScrollToTop>
-      <FluidSmoke></FluidSmoke>
+      <Suspense fallback={<div className="w-full h-full"></div>}>
+        <FluidSmoke></FluidSmoke>
+      </Suspense>
       <main className='flex-grow'>
         <Outlet></Outlet>
       </main>
       
-      <Footer></Footer>
+      <Suspense fallback={<div className="py-4"></div>}>
+        <Footer></Footer>
+      </Suspense>
       </div>
       
 

@@ -1,18 +1,30 @@
-import { StrictMode } from "react";
+import { StrictMode, lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Home from "./components/Home.jsx";
-import LostAndFound from "./pages/LostAndFound.jsx";
-import DoctorTalk from "./pages/DoctorTalk.jsx";
-import KidsSchool from "./pages/KidsSchool.jsx";
-import HobbyHub from "./pages/HobbyHub.jsx";
-import EnglishJanala from "./pages/EnglishJanala.jsx";
-import PetShop from "./pages/PetShop.jsx";
-import TeaHouse from "./pages/TeaHouse.jsx";
-import MedicalCamp from "./pages/MedicalCamp.jsx";
-import Gradient from "./pages/Gradient.jsx";
+
+// Lazy load page components
+const Home = lazy(() => import("./components/Home.jsx"));
+const LostAndFound = lazy(() => import("./pages/LostAndFound.jsx"));
+const DoctorTalk = lazy(() => import("./pages/DoctorTalk.jsx"));
+const KidsSchool = lazy(() => import("./pages/KidsSchool.jsx"));
+const HobbyHub = lazy(() => import("./pages/HobbyHub.jsx"));
+const EnglishJanala = lazy(() => import("./pages/EnglishJanala.jsx"));
+const PetShop = lazy(() => import("./pages/PetShop.jsx"));
+const TeaHouse = lazy(() => import("./pages/TeaHouse.jsx"));
+const MedicalCamp = lazy(() => import("./pages/MedicalCamp.jsx"));
+const Gradient = lazy(() => import("./pages/Gradient.jsx"));
+
+// Loading component
+const LoadingFallback = () => (
+  <div className="flex items-center justify-center min-h-screen">
+    <div className="text-center">
+      
+      <span className="loading loading-ring loading-8xl"></span>
+    </div>
+  </div>
+);
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +32,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <Home />
+          </Suspense>
+        ),
       },
       {
         path: "/herosection",
@@ -28,39 +44,75 @@ const router = createBrowserRouter([
       },
       {
         path: "/mcms",
-        element: <MedicalCamp />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <MedicalCamp />
+          </Suspense>
+        ),
       },
       {
         path: '/gradient',
-        element: <Gradient />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <Gradient />
+          </Suspense>
+        ),
       },
       {
         path: '/hobbyhub',
-        element: <HobbyHub />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <HobbyHub />
+          </Suspense>
+        ),
       },
       {
         path: '/lostandfound',
-        element: <LostAndFound />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <LostAndFound />
+          </Suspense>
+        ),
       },
       {
         path: '/doctortalk',
-        element: <DoctorTalk />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <DoctorTalk />
+          </Suspense>
+        ),
       },
       {
         path: '/kidsschool',
-        element: <KidsSchool />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <KidsSchool />
+          </Suspense>
+        ),
       },
       {
         path: '/englishjanala',
-        element: <EnglishJanala />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <EnglishJanala />
+          </Suspense>
+        ),
       },
       {
         path: '/petshop',
-        element: <PetShop/>
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <PetShop/>
+          </Suspense>
+        ),
       },
       {
         path: '/teahouse',
-        element: <TeaHouse />
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <TeaHouse />
+          </Suspense>
+        ),
       }
     ],
   },
