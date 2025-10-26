@@ -1,22 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const AboutMe = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      className="mt-14 max-w-7xl mx-auto p-5"
-    >
+    <div>
       <div>
-        <h2 className="text-3xl font-bold  mb-4 text-center primary text-blue-500">
+        <h2 className="text-3xl font-bold  my-7 text-center primary text-blue-500">
           About Me
         </h2>
       </div>
-      <div className="transform-3d ">
+     
+      <div className="transform-3d">
         <div
           id="about"
-          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4 hover:scale-[1.02] border border-green-400 shadow-md shadow-blue-500 rounded-2xl hover:shadow-lg transition duration-300 ease-in-out p-8"
+          className="my-12 inset-1 text-center max-w-7xl mx-auto px-4  border border-green-400 shadow-md shadow-blue-500 rounded-2xl p-8"
         >
           <p className="text-gray-200 text-lg leading-relaxed lg:text-justify text-left secondary">
             Hello! I'm Md Shafayet Hossen, a passionate and dedicated full-stack
@@ -77,7 +75,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+     
+    </div>
   );
 };
 

@@ -16,6 +16,7 @@ import img14 from "../assets/cpp.png";
 import img15 from "../assets/nextjs.png";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import AnimatedContent from './AnimatedContent'
 
 const SkillSection = () => {
   return (

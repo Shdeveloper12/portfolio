@@ -1,6 +1,9 @@
 @plugin "daisyui";
 @import "tailwindcss";
 
+
+@custom-variant dark (&:is(.dark *));
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,3 +21,4 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+

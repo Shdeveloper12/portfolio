@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+import StarBorder from "./StarBorder";
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,26 +13,30 @@ const Navbar = () => {
 
   const menuItems = (
     <>
-      {["about", "skills", "education", "projects", "contact"].map((section) => (
-        <li key={section}>
-          <Link
-            to={section}
-            smooth={true}
-            duration={500}
-            spy={true}
-            offset={-80}
-            onClick={handleLinkClick}
-            activeClass="primary shadow-sm shadow-blue-300 font-bold"
-            className="cursor-pointer text-gray-300 hover:shadow-sm hover:shadow-blue-300 font-medium capitalize"
-          >
-            {section}
-          </Link>
-        </li>
-      ))}
+      {["about", "skills", "education", "projects", "contact"].map(
+        (section) => (
+          <li key={section}>
+            <Link
+              to={section}
+              smooth={true}
+              duration={500}
+              spy={true}
+              offset={-80}
+              onClick={handleLinkClick}
+              activeClass="primary shadow-sm shadow-blue-300 font-bold"
+              className="cursor-pointer text-gray-300 hover:shadow-sm hover:shadow-blue-300 font-medium capitalize"
+            >
+              {section}
+            </Link>
+          </li>
+        )
+      )}
     </>
   );
 
   return (
+
+
     <div className="navbar bg-base-100 px-2 lg:px-12 shadow-sm sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
@@ -66,18 +72,23 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{menuItems}</ul>
       </div>
 
-      <div className="navbar-end">
-        <a
-          className="btn primary shadow-md shadow-blue-400"
-          href="https://drive.google.com/file/d/1PuXoEzJm88y9kalAZGegS4JnCC6MdPAO/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="hover:translate-y-1 transition-all duration-300 ease-in-out">
-            Resume
-          </span>
-        </a>
-      </div>
+      
+        <div className="navbar-end">
+          <StarBorder as="button" className="custom-class" color="cyan" speed="5s">
+          
+          <a
+            className="btn primary shadow-md shadow-blue-400"
+            href="https://drive.google.com/file/d/1PuXoEzJm88y9kalAZGegS4JnCC6MdPAO/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="hover:translate-y-1 transition-all duration-300 ease-in-out">
+              Resume
+            </span>
+          </a>
+          </StarBorder>
+        </div>
+      
     </div>
   );
 };
