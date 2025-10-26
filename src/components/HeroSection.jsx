@@ -1,9 +1,14 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion} from "framer-motion";
 import img from "../assets/formal.png";
 import { Link } from "react-scroll";
 import { stop } from "framer-motion/client";
+import SplitText from "./splitText";
+
 const HeroSection = () => {
+  const handleAnimationComplete = () => {
+  console.log('All letters have animated!');
+};
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content  flex-col lg:flex-row-reverse">
@@ -16,27 +21,20 @@ const HeroSection = () => {
           className="max-w-sm rounded-t-2xl shadow-blue-500 hover:cursor-pointer rounded-br-2xl border-l-8 border-b-8 border-blue-500 w-full lg:w-1/2  shadow-lg "
         />
         <div className="mr-10 text-center lg:text-left">
-          <h1 className="text-2xl font-bold secondary">Hi, I'm Shafayet!</h1>
-          <motion.h1
-            animate={{
-              color: [
-                "#0b22e8",
-                "#0ba2e8",
-                "#0bdbe8",
-                "#0be8c3",
-                "#31e023",
-                "#31e023",
-                "#0be8c3",
-                "#0bdbe8",
-                "#0ba2e8",
-                "#0b22e8",
-              ],
-            }}
-            transition={{ duration: 5, repeat: Infinity }}
-            className="py-6 text-4xl font-bold primary"
-          >
-            I build Full-Stack Web Applications, and Websites.
-          </motion.h1>
+          <SplitText
+            text="Hello, I'm Md Shafayet Hossen"
+            className="text-2xl font-semibold text-center"
+            delay={100}
+            duration={0.6}
+            ease="power3.out"
+            splitType="chars"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+            threshold={0.1}
+            rootMargin="-100px"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />
+          
           <p className="text-gray-400 text-lg secondary">
             A Passionate{" "}
             <strong className="primary text-blue-500">Full-stack developer</strong>{" "}
