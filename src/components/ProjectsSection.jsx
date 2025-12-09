@@ -13,16 +13,16 @@ import img9 from "../assets/ecommers.png";
 const ProjectsSection = () => {
   return (
     <>
-      <div className="mt-14 max-w-7xl mx-auto">
+      <div className="mt-18 max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold  mb-4 text-center text-blue-500 primary">
           Featured Projects
         </h1>
-        <p className="text-gray-300 mb-10 text-center secondary">
+        <p className="text-gray-300 mb-6 text-center secondary">
           Here are some of my projects
         </p>
 
-        <div className="grid  md:grid-cols-2  gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-2 gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
+          <div className="card bg-base-100  shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/ecommers">
                 <img
@@ -35,7 +35,7 @@ const ProjectsSection = () => {
                 
               </Link>
             </div>
-            <div className="">
+            
               <div className="p-6 space-y-3">
                 <h1 className="text-xl font-bold text-blue-500">TechBazar - Modern E-Commerce Platform</h1>
                 <p className="text-gray-400 secondary">
@@ -49,7 +49,7 @@ const ProjectsSection = () => {
                 </p>
                 <div className="flex gap-2 text-cyan-400 secondary font-bold pt-5">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
-                    Tailwindcss
+                    TypeScript
                   </span>
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Next.JS
@@ -83,9 +83,8 @@ const ProjectsSection = () => {
                   </span>
                 </a>
               </div>
-            </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/mcms">
                 <img
@@ -123,7 +122,7 @@ const ProjectsSection = () => {
                  
                 </div>
               </div>
-              <div className="p-4 mt-8 flex justify-between">
+              <div className="p-4 mt-6 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Client"
                   target="_blank"
@@ -148,7 +147,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg group shadow-blue-500 hover:scale-105 transition-transform duration-300 ease-in-out ">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg group shadow-blue-500 hover:scale-105 transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/hobbyhub">
                 <img
@@ -185,7 +184,7 @@ const ProjectsSection = () => {
                   
                 </div>
               </div>
-              <div className="p-4 mt-12 flex justify-between">
+              <div className="p-4 mt-10 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Hobby-Hub-Client"
                   target="_blank"
@@ -210,7 +209,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/lostandfound">
                 <img
@@ -275,7 +274,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/doctortalk">
                 <img
@@ -342,7 +341,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/englishjanala">
                 <img
@@ -406,7 +405,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/kidsschool">
                 <img
@@ -468,7 +467,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/petshop">
                 <img
@@ -506,7 +505,7 @@ const ProjectsSection = () => {
                   </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-between">
+              <div className="p-4 mt-6 gap-2 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Pet-Shop"
                   target="_blank"
@@ -531,7 +530,7 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg  shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
+          <div className="card bg-base-100 shadow-md hover:shadow-lg  shadow-blue-500 group hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="overflow-hidden relative">
               <Link to="/teahouse">
                 <img
@@ -543,7 +542,7 @@ const ProjectsSection = () => {
                 </span>
               </Link>
             </div>
-            <div className="">
+          
               <div className="p-6 space-y-3">
                 <h1 className="text-xl font-bold primary text-blue-500">
                   Tea House
@@ -557,7 +556,7 @@ const ProjectsSection = () => {
                     In Progress
                   </span>
                 </p>
-                <div className="flex gap-2 flex-wrap secondary text-cyan-400 font-bold">
+                <div className="flex gap-2 pt-5 flex-wrap secondary text-cyan-400 font-bold">
                   <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
                     Html
                   </span>
@@ -572,7 +571,7 @@ const ProjectsSection = () => {
                   </span>
                 </div>
               </div>
-              <div className="p-4 gap-2 flex justify-between">
+              <div className="p-4 gap-2 mt-8 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Tea-House-Responsive"
                   target="_blank"
@@ -598,7 +597,6 @@ const ProjectsSection = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

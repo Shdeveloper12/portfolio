@@ -6,9 +6,14 @@ import img3 from "../assets/mcms3.png";
 import img4 from "../assets/mcms4.png";
 import img5 from "../assets/mcms5.png";
 import img6 from "../assets/mcms6.png";
+import img7 from "../assets/ecommers.png";
+import img8 from "../assets/ecommers2.png";
+import img9 from "../assets/ecommers3.png";
+import img10 from "../assets/ecommers4.png";
+import img11 from "../assets/ecommers5.png";
 
-const MedicalCamp = () => {
-  const images = [img1, img2, img3, img4, img5, img6];
+const Ecommers = () => {
+  const images = [img7, img8, img9, img10, img11];
   const [current, setCurrent] = useState(0);
   const length = images.length;
 
@@ -45,20 +50,20 @@ const MedicalCamp = () => {
                   <img
                     src={img}
                     alt={`Slide ${index + 1}`}
-                    className=" object-cover w-full h-80 overflow-hidden rounded-2xl"
+                    className=" object-cover w-full  overflow-hidden rounded-2xl"
                   />
                 </div>
               ))}
 
               <button
                 onClick={prevSlide}
-                className="absolute left-2 mt-20 lg:mt-36 transform -translate-y-1/2 bg-gray-400 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70"
+                className="absolute left-2 mt-28 lg:mt-40 transform -translate-y-1/2 bg-gray-400 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70"
               >
                 ❮
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-2 mt-20 lg:mt-36 transform -translate-y-1/2 bg-gray-400 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70"
+                className="absolute right-2 mt-28 lg:mt-40 transform -translate-y-1/2 bg-gray-400 bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70"
               >
                 ❯
               </button>
@@ -78,36 +83,28 @@ const MedicalCamp = () => {
           <div className="">
             <div className="text-center space-y-5 p-13 border-2 bg-gray-800  border-gray-300 shadow-blue-300 shadow-md rounded-lg  hover:shadow-lg transition-shadow duration-300 ">
               <div className="mt-8">
-                <h2 className="text-4xl font-bold primary text-blue-500">
-                  Medical Camp Management System
+                <h2 className="text-4xl font-bold primary text-blue-600">
+                  TechBazar - Modern E-Commerce Platform
                 </h2>
-                <p className="secondary text-gray-400 mt-4">
-                  Discover, Create, and Join Medical Camps
+                <p className="secondary text-gray-100 mt-4">
+                  A feature-rich e-commerce platform built with Next.js,
+                  Tailwindcss, and SQL Database.
                 </p>
               </div>
-              <div className=" gap-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3  justify-between">
+              <div className=" gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between">
                 <a
-                  href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Client"
+                  href="https://github.com/Shdeveloper12/E-Commerce-Platform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
                 >
                   <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
-                    Frontend Code<i class="fa-solid fa-arrow-right ml-1"></i>
+                    GitHub Code<i class="fa-solid fa-arrow-right ml-1"></i>
                   </span>
                 </a>
+
                 <a
-                  href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Server"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn shadow-md shadow-blue-300"
-                >
-                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
-                    Backend Code <i class="fa-solid fa-arrow-right ml-1"></i>
-                  </span>
-                </a>
-                <a
-                  href="https://medicalcampmanagement.netlify.app"
+                  href="https://tech-bazar-swart.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn shadow-md shadow-blue-300"
@@ -127,11 +124,11 @@ const MedicalCamp = () => {
             <i class="fa-solid fa-pen-to-square mr-3"></i>Overview
           </h1>
           <p className="text-gray-400  leading-relaxed lg:text-justify text-left secondary">
-            The Medical Camp Management System is a comprehensive platform that
-            facilitates the organization and participation in medical camps. It
-            provides separate dashboards for organizers and participants,
-            enabling efficient camp management, registration, and payment
-            processing.
+            A feature-rich, full-stack e-commerce platform for tech products
+            built with Next.js 15, TypeScript, Prisma, and PostgreSQL.
+            Specializing in computers, laptops, gaming gear, and tech
+            accessories with comprehensive admin management and seamless user
+            experience.
           </p>
         </div>
         <div className="mt-12">
@@ -142,24 +139,24 @@ const MedicalCamp = () => {
               </h2>
               <div className="secondary space-y-2 ml-1 text-gray-400">
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Build a fully
-                  authenticated web app using modern React and Firebase.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Develop a
+                  comprehensive e-commerce platform for tech products.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Allow organizers to
-                  create camps, participants can join and manage their registrations.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Enable admin
+                  users to manage products, orders, and users effectively.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Provide a clean,
-                  responsive, and user-friendly interface.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Provide a
+                  seamless shopping experience for customers.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Protect private
-                  routes and user data using JWT & Firebase auth.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Implement secure
+                  authentication and authorization.
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Implement a payment
-                  system for camp registrations.
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Integrate a SQL
+                  database for robust data management.
                 </p>
               </div>
             </div>
@@ -176,44 +173,46 @@ const MedicalCamp = () => {
                         Authentication & Authorization
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Create &
-                        Manage Camps
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Product
+                        Listings & Search 
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Join Camps
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Shopping Cart
+                        & Checkout
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i> My Camp
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Admin
                         Dashboard
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Dark/Light
-                        Mode Toggle
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Order
+                        Management
                       </p>
                     </div>
                     <div>
+                      <p>
+                        <i class="fa-solid fa-star-of-life mr-3"></i> User
+                        Profile & Order History
+                      </p>
                       <p>
                         <i class="fa-solid fa-star-of-life mr-3"></i>Responsive
                         Design
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>User
-                        Avatars
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Reviews &
+                        Ratings
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>weetAlert2
-                        / Toasts / Loaders
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Search
+                        Filters
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Lottie
-                        Animations & React Tooltips
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Wishlist
+                        Functionality
                       </p>
                       <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Custom
-                        Hooks
-                      </p>
-                      <p>
-                        <i class="fa-solid fa-star-of-life mr-3"></i>Payment system using Stripe
+                        <i class="fa-solid fa-star-of-life mr-3"></i>Payment
+                        Integration
                       </p>
                     </div>
                   </div>
@@ -237,15 +236,16 @@ const MedicalCamp = () => {
                   <i class="fa-solid fa-star-of-life mr-3"></i>React.js
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>React Router DOM
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Next.js
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Tailwind CSS +
-                  DaisyUI
+                  <i class="fa-solid fa-star-of-life mr-3"></i>TypeScript
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Lucide-React
-                  (icons)
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Tailwind CSS
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Prisma Client
                 </p>
                 <p>
                   <i class="fa-solid fa-star-of-life mr-3"></i>Lottie-react
@@ -256,13 +256,17 @@ const MedicalCamp = () => {
                   <i class="fa-solid fa-star-of-life mr-3"></i>React Query
                 </p>
                 <p>
-                    <i class="fa-solid fa-star-of-life mr-3"></i>React Final Form
                 </p>
                 <p>
                   <i class="fa-solid fa-star-of-life mr-3"></i>React Hot Toast
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>React Tooltip
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>React Hook Form
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Axios
                 </p>
               </div>
             </div>
@@ -275,21 +279,27 @@ const MedicalCamp = () => {
                   <i class="fa-solid fa-star-of-life mr-3"></i>Express.js
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>MongoDB
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>JWT (JSON Web
-                  Tokens) – secured routes
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Node.js
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Firebase Admin
-                  SDK – token verification
                 </p>
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>cookie-parser –
-                  token storage in cookies
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Prisma ORM
                 </p>
-
+                <p>
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>PostgreSQL
+                  Database
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>JWT Tokens
+                </p>
+                <p>
+                  <i class="fa-solid fa-star-of-life mr-3"></i>Bcrypt.js
+                </p>
               </div>
             </div>
             <div className="">
@@ -298,12 +308,7 @@ const MedicalCamp = () => {
               </h2>
               <div className="secondary ml-6 text-gray-400">
                 <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>Firebase
-                  Authentication (email/password + Google)
-                </p>
-                <p>
-                  <i class="fa-solid fa-star-of-life mr-3"></i>JWT Tokens
-                  (protected routes on server)
+                  <i class="fa-solid fa-star-of-life mr-3"></i>NextAuth
                 </p>
               </div>
             </div>
@@ -314,4 +319,4 @@ const MedicalCamp = () => {
   );
 };
 
-export default MedicalCamp;
+export default Ecommers;
