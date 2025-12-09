@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import Ecommers from "./pages/Ecommers.jsx";
 
 // Lazy load page components
 const Home = lazy(() => import("./components/Home.jsx"));
@@ -41,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/herosection",
         
+      },
+       {
+        path: "/ecommers",
+        element: (
+          <Suspense fallback={<LoadingFallback />}>
+            <Ecommers />
+          </Suspense>
+        ),
       },
       {
         path: "/mcms",

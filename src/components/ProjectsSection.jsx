@@ -8,6 +8,7 @@ import img5 from "../assets/english.png";
 import img6 from "../assets/pet.png";
 import img7 from "../assets/tea.png";
 import img8 from "../assets/mcms1.png";
+import img9 from "../assets/ecommers.png";
 
 const ProjectsSection = () => {
   return (
@@ -21,6 +22,69 @@ const ProjectsSection = () => {
         </p>
 
         <div className="grid  md:grid-cols-2  gap-4 lg:grid-cols-3 space-y-5  lg:gap-4 md:gap-4 mt-10">
+          <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
+            <div className="overflow-hidden relative">
+              <Link to="/ecommers">
+                <img
+                  src={img9}
+                  alt="ecommers"
+                  className="transition-transform h-45 duration-500 rounded-md group-hover:scale-105 object-cover w-full"
+                />
+                <span className="absolute cursor-pointer top-1/2 left-1/2 font-bold text-3xl hover:bg-gray-200 border rounded-md  px-1 py-2 text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2 -translate-y-1/2">See Details<i className="fa-solid fa-arrow-right "></i>
+                </span>
+                
+              </Link>
+            </div>
+            <div className="">
+              <div className="p-6 space-y-3">
+                <h1 className="text-xl font-bold text-blue-500">TechBazar - Modern E-Commerce Platform</h1>
+                <p className="text-gray-400 secondary">
+                  A modern e-commerce platform for buying and selling products online.
+                </p>
+                <p>
+                  <span className="font-bold mr-2 ">Status:</span>
+                  <span className="bg-green-400 primary p-1 rounded-md ">
+                    Completed
+                  </span>
+                </p>
+                <div className="flex gap-2 text-cyan-400 secondary font-bold pt-5">
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Tailwindcss
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    Next.JS
+                  </span>
+                  <span className="bg-gray-700 p-2 rounded-2xl shadow-md shadow-blue-300">
+                    SQL Database
+                  </span>
+                 
+                </div>
+              </div>
+              <div className="p-4 mt-2 flex justify-between">
+                <a
+                  href="https://github.com/Shdeveloper12/E-Commerce-Platform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Github Code <i class="fa-solid fa-arrow-right "></i>
+                  </span>
+                </a>
+
+                <a
+                  href="https://tech-bazar-swart.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn shadow-md shadow-blue-300"
+                >
+                  <span className="hover:translate-x-1 primary transition-all duration-300 ease-in-out">
+                    Live Demo <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="card bg-base-100 w-96 shadow-md hover:shadow-lg shadow-blue-500 group  hover:scale-[1.02] transition-transform duration-300 ease-in-out ">
             <div className="overflow-hidden relative">
               <Link to="/mcms">
@@ -59,7 +123,7 @@ const ProjectsSection = () => {
                  
                 </div>
               </div>
-              <div className="p-4 flex justify-between">
+              <div className="p-4 mt-8 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Medical-Camp-Management-System-Client"
                   target="_blank"
@@ -97,7 +161,7 @@ const ProjectsSection = () => {
               </Link>
             </div>
             <div className="">
-              <div className="p-6 space-y-3">
+              <div className="p-6 space-y-4">
                 <h1 className="text-xl font-bold text-blue-500">Hobbyhub</h1>
                 <p className="text-gray-400 secondary">
                   A platform for sharing and discovering hobbies.
@@ -121,7 +185,7 @@ const ProjectsSection = () => {
                   
                 </div>
               </div>
-              <div className="p-4 flex justify-between">
+              <div className="p-4 mt-12 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Hobby-Hub-Client"
                   target="_blank"
