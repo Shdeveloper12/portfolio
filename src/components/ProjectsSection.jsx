@@ -103,7 +103,7 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for managing medical camps and register participants.
                 </p>
-                <p>
+                <p className="">
                   <span className="font-bold mr-2 ">Status:</span>
                   <span className="bg-green-400 primary p-1 rounded-md ">
                     Completed
@@ -165,7 +165,7 @@ const ProjectsSection = () => {
                 <p className="text-gray-400 secondary">
                   A platform for sharing and discovering hobbies.
                 </p>
-                <p>
+                <p className="mt-8">
                   <span className="font-bold mr-2">Status:</span>
                   <span className="bg-green-400 p-1 rounded-md primary">
                     Completed
@@ -184,7 +184,7 @@ const ProjectsSection = () => {
                   
                 </div>
               </div>
-              <div className="p-4 mt-10 flex justify-between">
+              <div className="p-4 mt-5 flex justify-between">
                 <a
                   href="https://github.com/Shdeveloper12/Hobby-Hub-Client"
                   target="_blank"
